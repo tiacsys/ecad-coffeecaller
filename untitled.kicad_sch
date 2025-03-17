@@ -3476,7 +3476,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0603"
+		(property "Footprint" "easyeda2kicad:C0805"
 			(at 259.08 76.2 0)
 			(effects
 				(font
@@ -3485,7 +3485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM188R61A226ME15_22uF-226-20-10V_C84419.html"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/46786-CL21A226MAQNNNE/C45783"
 			(at 259.08 73.66 0)
 			(effects
 				(font
@@ -3503,7 +3503,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C84419"
+		(property "LCSC Part" "C45783"
 			(at 259.08 71.12 0)
 			(effects
 				(font
@@ -4637,7 +4637,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0603"
+		(property "Footprint" "easyeda2kicad:C0805"
 			(at 259.08 64.77 0)
 			(effects
 				(font
@@ -4646,7 +4646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM188R61A226ME15_22uF-226-20-10V_C84419.html"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/46786-CL21A226MAQNNNE/C45783"
 			(at 259.08 62.23 0)
 			(effects
 				(font
@@ -4664,7 +4664,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C84419"
+		(property "LCSC Part" "C45783"
 			(at 259.08 59.69 0)
 			(effects
 				(font
@@ -5004,7 +5004,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0603"
+		(property "Footprint" "easyeda2kicad:C0805"
 			(at 213.36 58.42 0)
 			(effects
 				(font
@@ -5013,7 +5013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM188R61A226ME15_22uF-226-20-10V_C84419.html"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/46786-CL21A226MAQNNNE/C45783"
 			(at 215.9 58.42 0)
 			(effects
 				(font
@@ -5031,7 +5031,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C84419"
+		(property "LCSC Part" "C45783"
 			(at 218.44 58.42 0)
 			(effects
 				(font

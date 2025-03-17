@@ -3509,7 +3509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220R-221-5_C1226.html"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23689-0603WAF2200T5E/C22962"
 			(at 36.83 52.07 0)
 			(effects
 				(font
@@ -3527,7 +3527,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C1226"
+		(property "LCSC Part" "C22962"
 			(at 36.83 54.61 0)
 			(effects
 				(font
@@ -4409,7 +4409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220R-221-5_C1226.html"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23689-0603WAF2200T5E/C22962"
 			(at 228.6 88.9 0)
 			(effects
 				(font
@@ -4427,7 +4427,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C1226"
+		(property "LCSC Part" "C22962"
 			(at 228.6 86.36 0)
 			(effects
 				(font

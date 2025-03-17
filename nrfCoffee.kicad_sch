@@ -5362,7 +5362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A105KO8NNNC_1uF-105-10-16V_C1592.html"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/16531-CL10A105KB8NNNC/C15849"
 			(at 96.52 57.15 0)
 			(effects
 				(font
@@ -5380,7 +5380,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C1592"
+		(property "LCSC Part" "C15849"
 			(at 96.52 54.61 0)
 			(effects
 				(font
@@ -5831,7 +5831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A475KP8NNNC_4-7uF-475-10-10V_C1705.html"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20375-CL10A475KO8NNNC/C19666"
 			(at 208.28 93.98 0)
 			(effects
 				(font
@@ -5849,7 +5849,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C1705"
+		(property "LCSC Part" "C19666"
 			(at 205.74 93.98 0)
 			(effects
 				(font
@@ -6134,7 +6134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A105KO8NNNC_1uF-105-10-16V_C1592.html"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/16531-CL10A105KB8NNNC/C15849"
 			(at 62.23 53.34 0)
 			(effects
 				(font
@@ -6152,7 +6152,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C1592"
+		(property "LCSC Part" "C15849"
 			(at 59.69 53.34 0)
 			(effects
 				(font
@@ -6280,7 +6280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A475KP8NNNC_4-7uF-475-10-10V_C1705.html"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20375-CL10A475KO8NNNC/C19666"
 			(at 172.72 99.06 0)
 			(effects
 				(font
@@ -6298,7 +6298,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C1705"
+		(property "LCSC Part" "C19666"
 			(at 170.18 99.06 0)
 			(effects
 				(font
@@ -6714,7 +6714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A475KP8NNNC_4-7uF-475-10-10V_C1705.html"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20375-CL10A475KO8NNNC/C19666"
 			(at 201.93 90.17 0)
 			(effects
 				(font
@@ -6732,7 +6732,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C1705"
+		(property "LCSC Part" "C19666"
 			(at 201.93 92.71 0)
 			(effects
 				(font
