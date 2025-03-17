@@ -1406,174 +1406,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EASYEDA:TAJC226K016RNJ"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TAJC226K016RNJ"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:CASE-C_6032"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Tantalum-Capacitors_AVX_TAJC226K016RNJ_22uF-226-10-16V_C11376.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C11376"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TAJC226K016RNJ_0_1"
-				(polyline
-					(pts
-						(xy -0.51 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 -2.03) (xy -0.51 2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 -2.03) (xy 0.51 2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.03 -1.52) (xy 2.03 -0.51)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.02) (xy 1.52 -1.02)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "EASYEDA:TYPE-C-31-M-12"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2139,6 +1971,12 @@
 		(uuid "2225fa2a-8f80-425d-917b-45c90c44f86d")
 	)
 	(junction
+		(at 254 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2979ea50-5f5f-4758-9b3c-0222a5a37422")
+	)
+	(junction
 		(at 264.16 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2157,22 +1995,22 @@
 		(uuid "3b6220b3-d33f-4a93-a4ab-a0331edc3d45")
 	)
 	(junction
-		(at 254 72.39)
+		(at 264.16 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8b095f8f-4a7f-4c46-9bcf-3fefa58e4e73")
+		(uuid "4b0bb014-fe3e-4e27-8e13-6eef14144bed")
 	)
 	(junction
 		(at 205.74 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8b77cdea-2ecd-422b-be22-553507967e44")
+		(uuid "749ce9b7-c461-4485-908f-1fbf4e3a55f2")
 	)
 	(junction
-		(at 264.16 81.28)
+		(at 254 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9e531caf-9c21-47d2-9344-9395822d766b")
+		(uuid "8b095f8f-4a7f-4c46-9bcf-3fefa58e4e73")
 	)
 	(junction
 		(at 137.16 50.8)
@@ -2185,12 +2023,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7e8f088-17ba-40b2-a1a2-007d1c29d21b")
-	)
-	(junction
-		(at 254 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f04dbc6b-eafa-4b37-832a-35d95e7e35fe")
 	)
 	(junction
 		(at 240.03 72.39)
@@ -2241,6 +2073,16 @@
 			(type default)
 		)
 		(uuid "082f7733-c9cc-406d-9e33-fa216c2ed166")
+	)
+	(wire
+		(pts
+			(xy 254 83.82) (xy 254 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ae358b3-321f-4d76-a818-7f4d5e1a9160")
 	)
 	(wire
 		(pts
@@ -2314,16 +2156,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 88.9) (xy 264.16 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f8f21ad-2403-4b52-8804-fc4bf247e8ad")
-	)
-	(wire
-		(pts
 			(xy 205.74 49.53) (xy 205.74 53.34)
 		)
 		(stroke
@@ -2334,23 +2166,13 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 63.5) (xy 209.55 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d043f65-b9d9-4b7c-9dde-a353ca8f49c9")
-	)
-	(wire
-		(pts
 			(xy 200.66 63.5) (xy 205.74 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3dd7286d-17eb-4a2a-bb05-6cdaad83db74")
+		(uuid "3d043f65-b9d9-4b7c-9dde-a353ca8f49c9")
 	)
 	(wire
 		(pts
@@ -2444,6 +2266,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 93.98) (xy 264.16 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b704c5a-c8a3-4b8f-bf8c-6dc7c6aaf9d5")
+	)
+	(wire
+		(pts
 			(xy 77.47 30.48) (xy 77.47 33.02)
 		)
 		(stroke
@@ -2464,16 +2296,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 88.9) (xy 254 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a60945d-2122-4304-a00e-3d1d6609158c")
-	)
-	(wire
-		(pts
 			(xy 77.47 33.02) (xy 77.47 35.56)
 		)
 		(stroke
@@ -2481,6 +2303,16 @@
 			(type default)
 		)
 		(uuid "943e9bbf-0937-4cfd-a515-19b25c22e97f")
+	)
+	(wire
+		(pts
+			(xy 254 93.98) (xy 255.27 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9838f4e0-39e4-4ccc-92e0-c24402b8f77a")
 	)
 	(wire
 		(pts
@@ -2574,13 +2406,13 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 81.28) (xy 264.16 88.9)
+			(xy 262.89 93.98) (xy 264.16 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bec620dd-3f6b-44b7-b705-9e21038f1a73")
+		(uuid "b616de44-5da0-4205-a75d-8eb9a5a4368d")
 	)
 	(wire
 		(pts
@@ -2714,7 +2546,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 72.39) (xy 264.16 81.28)
+			(xy 264.16 72.39) (xy 264.16 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2764,13 +2596,13 @@
 	)
 	(wire
 		(pts
-			(xy 254 81.28) (xy 254 88.9)
+			(xy 205.74 63.5) (xy 209.55 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f82e5458-548a-419e-9d62-2ac3628af395")
+		(uuid "f7e689ce-e23c-4c9c-9efa-64223f7d708c")
 	)
 	(wire
 		(pts
@@ -2784,7 +2616,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 81.28) (xy 254 72.39)
+			(xy 254 83.82) (xy 254 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3620,7 +3452,7 @@
 	)
 	(symbol
 		(lib_id "EASYEDA:GRM188R61A226ME15D")
-		(at 259.08 81.28 180)
+		(at 259.08 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3629,14 +3461,6 @@
 		(fields_autoplaced yes)
 		(uuid "50ac99ca-8217-4f36-b2ed-1c7d3172fa90")
 		(property "Reference" "C20"
-			(at 259.08 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22µF"
 			(at 259.08 77.47 0)
 			(effects
 				(font
@@ -3644,8 +3468,16 @@
 				)
 			)
 		)
+		(property "Value" "22µF"
+			(at 259.08 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "easyeda2kicad:C0603"
-			(at 259.08 73.66 0)
+			(at 259.08 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3654,7 +3486,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM188R61A226ME15_22uF-226-20-10V_C84419.html"
-			(at 259.08 71.12 0)
+			(at 259.08 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3663,7 +3495,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 81.28 0)
+			(at 259.08 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3672,7 +3504,7 @@
 			)
 		)
 		(property "LCSC Part" "C84419"
-			(at 259.08 68.58 0)
+			(at 259.08 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4342,83 +4174,6 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA:TAJC226K016RNJ")
-		(at 259.08 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8189fdb-bb43-40f0-8e72-088a6b03668e")
-		(property "Reference" "C13"
-			(at 259.715 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22µF"
-			(at 259.715 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:CASE-C_6032"
-			(at 259.08 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Tantalum-Capacitors_AVX_TAJC226K016RNJ_22uF-226-10-16V_C11376.html"
-			(at 259.08 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C11376"
-			(at 259.08 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "988a9245-6c64-4bcb-a5c7-552c1cbcb022")
-		)
-		(pin "2"
-			(uuid "2d850b47-21be-4c0a-b491-263ac877c8a5")
-		)
-		(instances
-			(project ""
-				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 152.4 68.58 0)
 		(unit 1)
@@ -4791,85 +4546,6 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA:CL10A106MA8NRNC")
-		(at 205.74 58.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d70ff5b6-e344-45a5-975f-ba852fc5f7e7")
-		(property "Reference" "C14"
-			(at 209.55 57.1499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10µF"
-			(at 209.55 59.6899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0603"
-			(at 213.36 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A106MA8NRNC_10uF-106-20-25V_C96446.html"
-			(at 215.9 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 205.74 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C96446"
-			(at 218.44 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "eb8f9a92-c4ec-41f4-901c-ea0db9eb9018")
-		)
-		(pin "1"
-			(uuid "1c792c92-cc04-4f9c-8aa0-2fdbabb28de1")
-		)
-		(instances
-			(project "nrfCoffee"
-				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 93.98 43.18 180)
 		(unit 1)
@@ -5079,6 +4755,83 @@
 		)
 	)
 	(symbol
+		(lib_id "EASYEDA:CL10C120JB8NNNC")
+		(at 259.08 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6666161-7e19-446c-b88f-8da61b3ebeab")
+		(property "Reference" "C13"
+			(at 259.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 259.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0603"
+			(at 259.08 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10C120JB8NNNC_12pF-120-5-50V_C38523.html"
+			(at 259.08 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C38523"
+			(at 259.08 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88a251ec-227d-4e41-ba70-77544f0aa201")
+		)
+		(pin "2"
+			(uuid "4d2b1d00-0256-4e72-9b9c-a84e9c176706")
+		)
+		(instances
+			(project "nrfCoffee"
+				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 90.17 100.33 0)
 		(unit 1)
@@ -5218,6 +4971,85 @@
 			(project "nrfCoffee"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA:GRM188R61A226ME15D")
+		(at 205.74 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe3a2984-a919-4b7e-958d-fc526c8bba5a")
+		(property "Reference" "C27"
+			(at 209.55 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22µF"
+			(at 209.55 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0603"
+			(at 213.36 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM188R61A226ME15_22uF-226-20-10V_C84419.html"
+			(at 215.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C84419"
+			(at 218.44 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bb168030-22ca-4473-9a72-2f60e3edd064")
+		)
+		(pin "1"
+			(uuid "9d595d1b-b946-4721-9752-15aefd187e7e")
+		)
+		(instances
+			(project "nrfCoffee"
+				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
+					(reference "C27")
 					(unit 1)
 				)
 			)
