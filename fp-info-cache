@@ -1,4 +1,4 @@
-311545793034853
+276992779491176
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -69839,13 +69839,6 @@ CONN-TH_4P-P5.08_DB129VG-5.08-4P-GN-S footprint C2981774
 4
 4
 PCM_JLCPCB
-CRYSTAL-SMD_4P-L2.5-W2.0-BL
-CRYSTAL-SMD_4P-L2.5-W2.0-BL footprint
-CRYSTAL-SMD_4P-L2.5-W2.0-BL footprint C2875244
-0
-4
-4
-PCM_JLCPCB
 CRYSTAL-SMD_4P-L3.2-W2.5-BL
 CRYSTAL-SMD_4P-L3.2-W2.5-BL footprint
 CRYSTAL-SMD_4P-L3.2-W2.5-BL footprint C9002
@@ -69895,13 +69888,6 @@ capacitor
 2
 2
 PCM_JLCPCB
-C_1812
-Capacitor SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
-capacitor
-0
-2
-2
-PCM_JLCPCB
 C_CASE-A-3216-18(mm)
 Tantalum Capacitor SMD Kemet-A (3216-18 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
 capacitor tantalum
@@ -69923,30 +69909,9 @@ CAP-TH_BD10.0-P5.00-D0.6-FD-A footprint C3015599
 2
 2
 PCM_JLCPCB
-C_Plugin,P=7.5mm
-C, Disc series, Radial, pin pitch=7.50mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf
-C Disc series Radial pin pitch 7.50mm  diameter 7.5mm width 5.0mm Capacitor
-0
-2
-2
-PCM_JLCPCB
 C_Plugin,P=10mm
 C, Disc series, Radial, pin pitch=10.00mm, , diameter*width=11*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf
 C Disc series Radial pin pitch 10.00mm  diameter 11mm width 5.0mm Capacitor
-0
-2
-2
-PCM_JLCPCB
-C_Plugin,P=15mm
-CAP-TH_L26.5-W10.0-P22.50-D0.8 footprint
-CAP-TH_L26.5-W10.0-P22.50-D0.8 footprint C2991080
-0
-2
-2
-PCM_JLCPCB
-C_Plugin,P=27.5mm
-C, Rect series, Radial, pin pitch=27.50mm, , length*width=33*20mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf
-C Rect series Radial pin pitch 27.50mm  length 33mm width 20mm Capacitor
 0
 2
 2
@@ -69996,13 +69961,6 @@ PCM_JLCPCB
 D_0805
 LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
 LED
-0
-2
-2
-PCM_JLCPCB
-D_DFN0603-2
-DFN0603-2L-BI footprint
-DFN0603-2L-BI footprint C2936988
 0
 2
 2
@@ -70147,41 +70105,6 @@ FC-135R_L3.2-W1.5 footprint C32346
 2
 2
 PCM_JLCPCB
-FILTER-SMD_4P-L9.5-W8.3_PSMCAQ1050-222P
-FILTER-SMD_4P-L9.5-W8.3_PSMCAQ1050-222P footprint
-FILTER-SMD_4P-L9.5-W8.3_PSMCAQ1050-222P footprint C2962896
-0
-4
-4
-PCM_JLCPCB
-FILTER-SMD_4P-L12.0-W10.8-TL
-FILTER-SMD_4P-L12.0-W10.8-TL footprint
-FILTER-SMD_4P-L12.0-W10.8-TL footprint C2839965
-0
-4
-4
-PCM_JLCPCB
-F_0603
-Fuse SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-fuse
-0
-2
-2
-PCM_JLCPCB
-HC-49S_L7.0-W4.0
-HC-49S_L7.0-W4.0 footprint
-HC-49S_L7.0-W4.0 footprint C2975359
-0
-2
-2
-PCM_JLCPCB
-HDR-TH_8P-P2.54-V-M
-HDR-TH_8P-P2.54-V-M footprint
-HDR-TH_8P-P2.54-V-M footprint C2829996
-0
-8
-8
-PCM_JLCPCB
 Hole, 3mm
 
 
@@ -70259,13 +70182,6 @@ inductor
 2
 2
 PCM_JLCPCB
-L_1008
-Inductor SMD 1008 (2520 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://ecsxtal.com/store/pdf/ECS-MPI2520-SMD-POWER-INDUCTOR.pdf), generated with kicad-footprint-generator
-inductor
-0
-2
-2
-PCM_JLCPCB
 L_1206
 Inductor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 inductor
@@ -70276,13 +70192,6 @@ PCM_JLCPCB
 L_SMD,4.5x4.1mm
 IND-SMD_L4.5-W4.1_TMPA0402SP footprint
 IND-SMD_L4.5-W4.1_TMPA0402SP footprint C2875615
-0
-2
-2
-PCM_JLCPCB
-L_SMD,4.5x4x3.2mm
-IND-SMD_L4.5-W4.0_CD43 footprint
-IND-SMD_L4.5-W4.0_CD43 footprint C2880035
 0
 2
 2
@@ -70343,13 +70252,6 @@ MouseBites, Mechanical, JLCPCB, 1.6mm
 0
 0
 PCM_JLCPCB
-OPTO-SMD-4_L4.6-W6.5-P2.54-LS10.3-TL
-OPTO-SMD-4_L4.6-W6.5-P2.54-LS10.3-TL footprint
-OPTO-SMD-4_L4.6-W6.5-P2.54-LS10.3-TL footprint C106900
-0
-4
-4
-PCM_JLCPCB
 OSC-SMD_4P-L3.2-W2.5-BL
 OSC-SMD_4P-L3.2-W2.5-BL footprint
 OSC-SMD_4P-L3.2-W2.5-BL footprint C9006
@@ -70363,13 +70265,6 @@ OSC-SMD_4P-L3.2-W2.5-BL_SIT8008BI footprint C9010
 0
 4
 4
-PCM_JLCPCB
-PDIP-8_L9.6-W6.4-P2.54-LS7.9-BL-1
-PDIP-8_L9.6-W6.4-P2.54-LS7.9-BL-1 footprint
-PDIP-8_L9.6-W6.4-P2.54-LS7.9-BL-1 footprint C2987356
-0
-8
-8
 PCM_JLCPCB
 PG-TO-263-5_L10.2-W8.7-P1.70-LS14.4-BR
 PG-TO-263-5_L10.2-W8.7-P1.70-LS14.4-BR footprint
@@ -70448,30 +70343,9 @@ SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR footprint C7420322
 3
 3
 PCM_JLCPCB
-RV_1210
-R1210 footprint
-R1210 footprint C2935551
-0
-2
-2
-PCM_JLCPCB
 RV_Plugin,P=5mm
 RES-TH_L8.0-W5.4-P5.00-D0.6 footprint
 RES-TH_L8.0-W5.4-P5.00-D0.6 footprint C2919238
-0
-2
-2
-PCM_JLCPCB
-RV_Plugin,P=7.5mm
-RES-TH_L15.0-W6.4-P7.50-D0.8 footprint
-RES-TH_L15.0-W6.4-P7.50-D0.8 footprint C2919311
-0
-2
-2
-PCM_JLCPCB
-RV_Plugin,P=8mm
-RES-TH_L15.0-W6.6-P8.00-D0.8 footprint
-RES-TH_L15.0-W6.6-P8.00-D0.8 footprint C2919344
 0
 2
 2
@@ -70532,13 +70406,6 @@ resistor
 2
 2
 PCM_JLCPCB
-SMD-8_L9.8-W6.6-P2.54-LS10.3-BL
-SMD-8_L9.8-W6.6-P2.54-LS10.3-BL footprint
-SMD-8_L9.8-W6.6-P2.54-LS10.3-BL footprint C110020
-0
-8
-8
-PCM_JLCPCB
 SOIC-8_3.9x4.9mm_P1.27mm
 SOP, 8 Pin (http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf#page=79), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOP SO
@@ -70594,13 +70461,6 @@ SOIC-20_L13.0-W7.6-P1.27-LS10.3-BL footprint C5625
 0
 20
 20
-PCM_JLCPCB
-SOP-4_L4.4-W2.8-P1.27-LS7.0-TL
-SOP-4_L4.4-W2.8-P1.27-LS7.0-TL footprint
-SOP-4_L4.4-W2.8-P1.27-LS7.0-TL footprint C145341
-0
-4
-4
 PCM_JLCPCB
 SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR
 SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR footprint
@@ -70773,13 +70633,6 @@ PCM_JLCPCB
 SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2
 SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2 footprint
 SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2 footprint C318884
-0
-4
-4
-PCM_JLCPCB
-SW-SMD_218-2LPSTRF
-SW-SMD_218-2LPSTRF footprint
-SW-SMD_218-2LPSTRF footprint C2961921
 0
 4
 4
@@ -100612,6 +100465,13 @@ C0402
 2
 easyeda2kicad
 C0603
+
+
+0
+2
+2
+easyeda2kicad
+C0805
 
 
 0
