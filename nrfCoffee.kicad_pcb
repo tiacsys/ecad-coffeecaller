@@ -2801,7 +2801,7 @@
 	(footprint "easyeda2kicad:ANT-SMD_L7.0-W2.0-R"
 		(layer "F.Cu")
 		(uuid "28f23690-c680-4048-901c-38c40f129287")
-		(at 66.75 46 180)
+		(at 65.75 46 180)
 		(property "Reference" "U2"
 			(at 0 2 0)
 			(layer "F.SilkS")
@@ -16311,11 +16311,11 @@
 	)
 	(segment
 		(start 60.02 46)
-		(end 63.25 46)
+		(end 62.25 46)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 54)
-		(uuid "eca66f00-3e59-4107-b33d-989a299dac5e")
+		(uuid "bb6dd0e7-249f-4b93-b329-2bda369ce67d")
 	)
 	(segment
 		(start 55.29 66.29)
