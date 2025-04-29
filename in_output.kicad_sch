@@ -5,6 +5,113 @@
 	(uuid "991599c2-9524-4c2f-9a15-7092dc7a77af")
 	(paper "A4")
 	(lib_symbols
+		(symbol "EASYEDA:0402WGF220JTCE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0402WGF220JTCE"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:R0402"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_22R-22R0-1_C25092.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C25092"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402WGF220JTCE_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "EASYEDA:0603WAJ0221T5E"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -102,6 +209,174 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "EASYEDA:0603Whitelight_C2290"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0603White light_C2290"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:LED0603-R-RD_WHITE"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C2290"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603Whitelight_C2290_0_1"
+				(polyline
+					(pts
+						(xy -3.81 2.03) (xy -2.79 1.52) (xy -3.3 1.02) (xy -3.81 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.79 3.05) (xy -1.78 2.54) (xy -2.29 2.03) (xy -2.79 3.05)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.03 0.25) (xy -3.81 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0.76) (xy -1.27 -3.3)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.02 1.27) (xy -2.79 3.05)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.79) (xy -1.27 -1.27) (xy 1.27 0.51) (xy 1.27 -2.79)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 3.81)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -1.27 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1790,6 +2065,18 @@
 		(uuid "5bf7bb4b-96ca-41e9-bcb1-50bcfb322194")
 	)
 	(junction
+		(at 254 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71465e67-f1fd-4612-94b1-c675fc2998ef")
+	)
+	(junction
+		(at 254 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71df84d1-b7a3-4618-a258-29c28485ca0e")
+	)
+	(junction
 		(at 66.04 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1808,10 +2095,28 @@
 		(uuid "aeda9112-1c3b-49b4-aebc-2148e527934d")
 	)
 	(junction
+		(at 214.63 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfec94cf-7493-4553-b50b-2efdcd9f4d6f")
+	)
+	(junction
 		(at 72.39 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d137927a-7971-489b-8269-3aadc65f8da2")
+	)
+	(junction
+		(at 214.63 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1b97921-ddae-4089-9958-37793deb4357")
+	)
+	(junction
+		(at 214.63 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2d79b62-2449-4652-9f2e-0470fbffa04a")
 	)
 	(junction
 		(at 133.35 139.7)
@@ -1825,17 +2130,25 @@
 		(color 0 0 0 0)
 		(uuid "f3a0eaf5-e688-4d83-9ed5-efb737feaba6")
 	)
+	(junction
+		(at 254 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc991223-52e6-47e6-a527-fc2d15fe0ca5")
+	)
 	(no_connect
 		(at 121.92 137.16)
 		(uuid "5c8ddef6-7012-4564-9103-87508869efdb")
 	)
-	(no_connect
-		(at 110.49 165.1)
-		(uuid "9921d62c-55d0-4558-8d91-3c6c581dc392")
-	)
-	(no_connect
-		(at 111.76 154.94)
-		(uuid "a1ca0dac-e719-4f69-a4c4-2db9f5464033")
+	(wire
+		(pts
+			(xy 224.79 147.32) (xy 234.95 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0425dfa7-6c49-4d9c-b376-611af111676a")
 	)
 	(wire
 		(pts
@@ -1866,6 +2179,16 @@
 			(type default)
 		)
 		(uuid "088b8c3a-c12c-4bf7-b7e9-e42cba8411d3")
+	)
+	(wire
+		(pts
+			(xy 227.33 35.56) (xy 233.68 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "099e5d32-1bd2-4fb7-b0d9-f8a703633d1d")
 	)
 	(wire
 		(pts
@@ -1919,6 +2242,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 120.65) (xy 234.95 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25ad057a-f33c-4ec5-bacf-71b8bc131f77")
+	)
+	(wire
+		(pts
 			(xy 91.44 101.6) (xy 91.44 107.95)
 		)
 		(stroke
@@ -1946,6 +2279,16 @@
 			(type default)
 		)
 		(uuid "312e3686-d8ad-4ae5-917a-d28f6dc7652d")
+	)
+	(wire
+		(pts
+			(xy 227.33 69.85) (xy 233.68 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31e6ef2c-89b6-4d97-9289-ed2acc7d719d")
 	)
 	(wire
 		(pts
@@ -1999,6 +2342,26 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 58.42) (xy 233.68 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "401e9ad0-42f9-4861-86fc-ef3114ae0d8b")
+	)
+	(wire
+		(pts
+			(xy 214.63 134.62) (xy 214.63 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "403417ac-1327-4761-a967-6e46ed220c16")
+	)
+	(wire
+		(pts
 			(xy 172.72 101.6) (xy 172.72 107.95)
 		)
 		(stroke
@@ -2006,6 +2369,36 @@
 			(type default)
 		)
 		(uuid "40ee7923-d4d4-4f4a-86dd-ee978a90fe8c")
+	)
+	(wire
+		(pts
+			(xy 214.63 120.65) (xy 214.63 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4266b122-fadb-4c70-88b7-2eca0b4d8784")
+	)
+	(wire
+		(pts
+			(xy 254 58.42) (xy 254 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42e334ba-a33c-4ecd-8513-3758c3392880")
+	)
+	(wire
+		(pts
+			(xy 227.33 46.99) (xy 233.68 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45e39053-0e0e-442f-ad55-38828de9f9f2")
 	)
 	(wire
 		(pts
@@ -2079,6 +2472,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 69.85) (xy 254 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f808b0f-5feb-4c55-854a-a4c80ef2394a")
+	)
+	(wire
+		(pts
 			(xy 85.09 135.89) (xy 85.09 142.24)
 		)
 		(stroke
@@ -2149,6 +2552,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 161.29) (xy 251.46 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76fb85a9-e129-4aea-b6cc-2f5430dc4f69")
+	)
+	(wire
+		(pts
 			(xy 212.09 99.06) (xy 223.52 99.06)
 		)
 		(stroke
@@ -2156,6 +2569,16 @@
 			(type default)
 		)
 		(uuid "77de6c80-d446-4ad5-8089-60c7b951a654")
+	)
+	(wire
+		(pts
+			(xy 245.11 134.62) (xy 251.46 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aaa7818-b240-4145-ac8d-05c724bd61bb")
 	)
 	(wire
 		(pts
@@ -2229,6 +2652,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 46.99) (xy 254 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f6f700d-1137-4bf5-be54-3dd8ab2bf869")
+	)
+	(wire
+		(pts
 			(xy 123.19 57.15) (xy 130.81 57.15)
 		)
 		(stroke
@@ -2246,6 +2679,16 @@
 			(type default)
 		)
 		(uuid "a42021c4-8dec-4b90-a4b4-983cb3dec61a")
+	)
+	(wire
+		(pts
+			(xy 245.11 147.32) (xy 251.46 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5cc0f0f-8110-4cd5-bb71-1717b8d76a22")
 	)
 	(wire
 		(pts
@@ -2289,6 +2732,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 35.56) (xy 254 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba890005-4f94-4371-8519-07d5317b6d91")
+	)
+	(wire
+		(pts
 			(xy 90.17 143.51) (xy 90.17 120.65)
 		)
 		(stroke
@@ -2296,6 +2749,16 @@
 			(type default)
 		)
 		(uuid "bc427e49-e5ac-4531-a12d-1884635a3a1c")
+	)
+	(wire
+		(pts
+			(xy 254 69.85) (xy 254 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc761ced-08b7-496a-8a3a-4dff0a9dc109")
 	)
 	(wire
 		(pts
@@ -2339,6 +2802,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 134.62) (xy 234.95 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb59278a-c08f-4bff-877c-e61405cba99e")
+	)
+	(wire
+		(pts
 			(xy 147.32 101.6) (xy 140.97 101.6)
 		)
 		(stroke
@@ -2369,6 +2842,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 35.56) (xy 254 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d39fc81b-6c97-42f7-b024-d17bcfc9a8bf")
+	)
+	(wire
+		(pts
 			(xy 59.69 91.44) (xy 66.04 91.44)
 		)
 		(stroke
@@ -2376,6 +2859,26 @@
 			(type default)
 		)
 		(uuid "d3bf5e8a-3200-4298-b450-0ef3fc905189")
+	)
+	(wire
+		(pts
+			(xy 243.84 58.42) (xy 254 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d88f8016-300c-4098-9bc3-2234be699ac0")
+	)
+	(wire
+		(pts
+			(xy 214.63 147.32) (xy 214.63 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df3ae744-898e-4300-afd6-da5bae6b2200")
 	)
 	(wire
 		(pts
@@ -2399,6 +2902,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 46.99) (xy 254 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e63e3efb-b573-4600-a234-29a2375e9107")
+	)
+	(wire
+		(pts
 			(xy 140.97 57.15) (xy 148.59 57.15)
 		)
 		(stroke
@@ -2406,6 +2919,26 @@
 			(type default)
 		)
 		(uuid "f29c1a36-bfd8-4725-9eb6-30bd917f6523")
+	)
+	(wire
+		(pts
+			(xy 245.11 120.65) (xy 251.46 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8dc90ae-c22a-4edf-9409-3ae7db7dfab2")
+	)
+	(wire
+		(pts
+			(xy 203.2 120.65) (xy 214.63 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f916ca6e-a83d-441c-aecb-b44960e4ddfe")
 	)
 	(wire
 		(pts
@@ -2427,6 +2960,16 @@
 		)
 		(uuid "fe39e022-065f-424b-bbc9-2e9a24316afc")
 	)
+	(wire
+		(pts
+			(xy 224.79 161.29) (xy 234.95 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe9bdd85-6095-4d57-a788-e6e38dc273b1")
+	)
 	(global_label "+3V3"
 		(shape input)
 		(at 137.16 152.4 0)
@@ -2440,6 +2983,72 @@
 		(uuid "1b1f2151-5e19-44b2-a6cb-fb4d88495b23")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 145.2252 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LD2"
+		(shape input)
+		(at 251.46 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b6e3ee3-a831-4ccf-8fad-9b5043f0e775")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.9528 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SW3"
+		(shape input)
+		(at 227.33 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "222c1772-f52a-4822-8911-75f52da66373")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.4744 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LD1"
+		(shape input)
+		(at 251.46 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "234cfa56-80d7-4c13-9466-6794e9feb42a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.9528 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2581,6 +3190,28 @@
 			)
 		)
 	)
+	(global_label "SW1"
+		(shape input)
+		(at 227.33 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6add154e-e734-4f0a-8565-3e0fedf3b356")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.4744 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RGBData"
 		(shape input)
 		(at 233.68 99.06 0)
@@ -2603,6 +3234,28 @@
 			)
 		)
 	)
+	(global_label "LD4"
+		(shape input)
+		(at 251.46 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "735c225c-84d5-4a82-81bf-153df2993f7a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.9528 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SW0"
 		(shape input)
 		(at 123.19 57.15 180)
@@ -2616,6 +3269,72 @@
 		(uuid "87b7d2f9-4edb-49ca-86d8-8954dd3c5c47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 116.3344 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SW4"
+		(shape input)
+		(at 227.33 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8d360250-e42e-4f93-864b-e23dab988c13")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.4744 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LD3"
+		(shape input)
+		(at 251.46 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91c1b1e8-acaf-429c-b483-11afe7845391")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.9528 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SW2"
+		(shape input)
+		(at 227.33 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9d7d659d-9558-41cf-90af-57ccc0b294e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.4744 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2660,6 +3379,28 @@
 		(uuid "b3b02078-04b3-4284-8707-3a90513e6ee7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 48.2986 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape input)
+		(at 203.2 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1aa78d5-4340-42a4-a491-a47f38e34230")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.1348 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3262,6 +4003,83 @@
 		)
 	)
 	(symbol
+		(lib_id "EASYEDA:0402WGF220JTCE")
+		(at 219.71 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41c279c7-ebaa-44d1-aec1-ec2e3b40de43")
+		(property "Reference" "R5"
+			(at 219.71 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20"
+			(at 219.71 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0402"
+			(at 219.71 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_22R-22R0-1_C25092.html"
+			(at 219.71 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25092"
+			(at 219.71 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "83142815-3756-41a7-bc18-fc678715c1a1")
+		)
+		(pin "1"
+			(uuid "8c05a518-cf24-400a-8d0e-225814852391")
+		)
+		(instances
+			(project ""
+				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 106.68 74.93 180)
 		(unit 1)
@@ -3478,6 +4296,83 @@
 		)
 	)
 	(symbol
+		(lib_id "EASYEDA:0402WGF220JTCE")
+		(at 219.71 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63678700-6071-4f75-9405-b7e57efa461b")
+		(property "Reference" "R7"
+			(at 219.71 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20"
+			(at 219.71 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0402"
+			(at 219.71 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_22R-22R0-1_C25092.html"
+			(at 219.71 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25092"
+			(at 219.71 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "65e977fd-6cb1-42c7-ac33-7b8c1afd7f61")
+		)
+		(pin "1"
+			(uuid "e37ce563-5bda-4efb-8951-02236689f3e5")
+		)
+		(instances
+			(project "nrfCoffee"
+				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 91.44 107.95 0)
 		(unit 1)
@@ -3538,6 +4433,83 @@
 			(project "nrfCoffee"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA:0402WGF220JTCE")
+		(at 219.71 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d867429-b58a-47e6-a665-e91c91072fb3")
+		(property "Reference" "R6"
+			(at 219.71 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20"
+			(at 219.71 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0402"
+			(at 219.71 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_22R-22R0-1_C25092.html"
+			(at 219.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25092"
+			(at 219.71 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "327f8fe8-3446-4238-a1fb-1e9123a8b228")
+		)
+		(pin "1"
+			(uuid "ee1ffa9a-2208-4f6b-a828-e0abf997ff13")
+		)
+		(instances
+			(project "nrfCoffee"
+				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -3980,6 +4952,83 @@
 			(project "nrfCoffee"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA:0402WGF220JTCE")
+		(at 219.71 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82579a8e-b0e4-4033-a26b-54aeffffe71f")
+		(property "Reference" "R8"
+			(at 219.71 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20"
+			(at 219.71 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0402"
+			(at 219.71 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_22R-22R0-1_C25092.html"
+			(at 219.71 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C25092"
+			(at 219.71 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "54d9ccb9-a91b-4199-8670-35effca41265")
+		)
+		(pin "1"
+			(uuid "3ad8f11e-8916-465e-b37f-7ea21f74ecae")
+		)
+		(instances
+			(project "nrfCoffee"
+				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -4443,6 +5492,83 @@
 		)
 	)
 	(symbol
+		(lib_id "EASYEDA:0603Whitelight_C2290")
+		(at 240.03 135.89 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a81b2a48-9a3a-43a0-a515-22bc072c5822")
+		(property "Reference" "LD2"
+			(at 241.3 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603White light_C2290"
+			(at 241.3 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED0603-R-RD_WHITE"
+			(at 240.03 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 240.03 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 240.03 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f23e9b4e-c5bd-48f1-beff-2d1148d8e4c4")
+		)
+		(pin "1"
+			(uuid "7c6180df-47c8-4dcf-b904-91fac5bc71be")
+		)
+		(instances
+			(project "nrfCoffee"
+				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
+					(reference "LD2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 212.09 107.95 0)
 		(unit 1)
@@ -4592,6 +5718,83 @@
 			(project ""
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "CN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA:0603Whitelight_C2290")
+		(at 240.03 121.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bdcf957f-eed5-40e0-8cd7-2f10f65ae6ec")
+		(property "Reference" "LD1"
+			(at 241.3 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603White light_C2290"
+			(at 241.3 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED0603-R-RD_WHITE"
+			(at 240.03 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 240.03 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 240.03 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "16429ddd-4861-4f93-b890-fa76adbdad37")
+		)
+		(pin "1"
+			(uuid "9692ee13-3a2e-4327-9f9c-3d7e91593482")
+		)
+		(instances
+			(project ""
+				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
+					(reference "LD1")
 					(unit 1)
 				)
 			)
@@ -5068,6 +6271,160 @@
 		)
 	)
 	(symbol
+		(lib_id "EASYEDA:0603Whitelight_C2290")
+		(at 240.03 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da8c5b3d-900f-4d45-bc86-16c472c933d2")
+		(property "Reference" "LD3"
+			(at 241.3 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603White light_C2290"
+			(at 241.3 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED0603-R-RD_WHITE"
+			(at 240.03 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 240.03 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 240.03 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e6fdf54a-fcfc-44e5-b842-e22a4feb3db9")
+		)
+		(pin "1"
+			(uuid "480ee3c3-9c48-47fb-96c7-5a6e8f5cfabb")
+		)
+		(instances
+			(project "nrfCoffee"
+				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
+					(reference "LD3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA:0603Whitelight_C2290")
+		(at 240.03 162.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e15b1419-5cc6-4d1f-ab83-1ef6aca5efbc")
+		(property "Reference" "LD4"
+			(at 241.3 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603White light_C2290"
+			(at 241.3 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED0603-R-RD_WHITE"
+			(at 240.03 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0603White-light_C2290.html"
+			(at 240.03 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 240.03 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2290"
+			(at 240.03 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5df48e06-1227-4a5b-84ba-36ff98ca0c1e")
+		)
+		(pin "1"
+			(uuid "83404a83-c782-498c-bbde-c7cba59b2a71")
+		)
+		(instances
+			(project "nrfCoffee"
+				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
+					(reference "LD4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EASYEDA:CL10C120JB8NNNC")
 		(at 133.35 148.59 90)
 		(unit 1)
@@ -5207,6 +6564,72 @@
 			(project "nrfCoffee"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 254 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff5df01b-63f7-4fee-b950-91bc043f2f38")
+		(property "Reference" "#PWR045"
+			(at 254 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 254 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 254 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79235b6f-5555-4e57-a211-6f37e5d24055")
+		)
+		(instances
+			(project "nrfCoffee"
+				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
