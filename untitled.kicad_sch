@@ -4393,7 +4393,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5d4e92d-6c6d-43fb-8f2f-03b87ed8aca1")
-		(property "Reference" "D1"
+		(property "Reference" "D0"
 			(at 113.155 90.17 0)
 			(effects
 				(font
@@ -4460,7 +4460,7 @@
 		(instances
 			(project "nrfCoffee"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
-					(reference "D1")
+					(reference "D0")
 					(unit 1)
 				)
 			)

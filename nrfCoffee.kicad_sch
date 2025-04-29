@@ -4495,7 +4495,7 @@
 			)
 		)
 	)
-	(global_label "SW1"
+	(global_label "SW0"
 		(shape input)
 		(at 173.99 102.87 0)
 		(fields_autoplaced yes)
