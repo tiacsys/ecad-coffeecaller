@@ -9090,7 +9090,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "usb_power.kicad_sch"
 			(at 245.11 163.1446 0)
 			(effects
 				(font
