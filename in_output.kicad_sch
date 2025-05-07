@@ -1728,28 +1728,28 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EASYEDA:WS2812E"
+		(symbol "EASYEDA:WS2812E-V5"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "LED"
-				(at 0 5.08 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "WS2812E"
+			(property "Value" "WS2812E-V5"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-LS5.4-TL-1"
 				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-BL_TC5050RGB"
-				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1757,8 +1757,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_WS2812E_C139127.html"
-				(at 0 -12.7 0)
+			(property "Datasheet" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1775,8 +1775,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C139127"
-				(at 0 -15.24 0)
+			(property "LCSC Part" "C2920042"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1784,10 +1784,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "WS2812E_0_1"
+			(symbol "WS2812E-V5_0_1"
 				(rectangle
-					(start -10.16 2.54)
-					(end 10.16 -5.08)
+					(start -7.62 5.08)
+					(end 5.08 -2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -1797,7 +1797,7 @@
 					)
 				)
 				(circle
-					(center -8.89 1.27)
+					(center -6.35 3.81)
 					(radius 0.38)
 					(stroke
 						(width 0)
@@ -1807,20 +1807,8 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 9.65 -3.05) (xy 9.65 -4.57) (xy 8.13 -4.57) (xy 9.65 -3.05)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(pin unspecified line
-					(at -12.7 0 0)
+					(at -10.16 2.54 0)
 					(length 2.54)
 					(name "VDD"
 						(effects
@@ -1838,9 +1826,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -12.7 -2.54 0)
+					(at -10.16 0 0)
 					(length 2.54)
-					(name "DOUT"
+					(name "DO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1856,7 +1844,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 12.7 0 180)
+					(at 7.62 2.54 180)
 					(length 2.54)
 					(name "DIN"
 						(effects
@@ -1874,9 +1862,9 @@
 					)
 				)
 				(pin unspecified line
-					(at 12.7 -2.54 180)
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "VSS"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2308,6 +2296,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 59.69) (xy 165.1 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10994674-60c8-4723-9c64-232aae90c3a3")
+	)
+	(wire
+		(pts
 			(xy 31.75 154.94) (xy 31.75 177.8)
 		)
 		(stroke
@@ -2328,16 +2326,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 59.69) (xy 116.84 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14cada38-e298-48e0-910c-60e4ee126f72")
-	)
-	(wire
-		(pts
 			(xy 91.44 52.07) (xy 91.44 59.69)
 		)
 		(stroke
@@ -2345,6 +2333,16 @@
 			(type default)
 		)
 		(uuid "18db7720-ae2a-47a7-ab75-aff0b5ec455d")
+	)
+	(wire
+		(pts
+			(xy 193.04 59.69) (xy 203.2 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ab87c09-e818-4698-bdde-4451ceb559d9")
 	)
 	(wire
 		(pts
@@ -2408,17 +2406,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 59.69) (xy 157.48 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33d6f440-c594-4c85-a757-df83fb7fe050")
-	)
-	(wire
-		(pts
-			(xy 91.44 62.23) (xy 85.09 62.23)
+			(xy 85.09 62.23) (xy 95.25 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2518,16 +2506,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 59.69) (xy 76.2 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fe2d274-9f25-4b25-b464-ab4281775bb9")
-	)
-	(wire
-		(pts
 			(xy 125.73 62.23) (xy 125.73 59.69)
 		)
 		(stroke
@@ -2575,6 +2553,16 @@
 			(type default)
 		)
 		(uuid "55feb1c6-5e9d-4549-8fae-3850a9d2c527")
+	)
+	(wire
+		(pts
+			(xy 72.39 62.23) (xy 76.2 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b64412b-7de0-446e-914a-51cb17746cc3")
 	)
 	(wire
 		(pts
@@ -2668,13 +2656,13 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 59.69) (xy 203.2 59.69)
+			(xy 91.44 59.69) (xy 95.25 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "77de6c80-d446-4ad5-8089-60c7b951a654")
+		(uuid "78de4f94-2ff1-4cee-8d11-7a8713ddbe8c")
 	)
 	(wire
 		(pts
@@ -2715,6 +2703,16 @@
 			(type default)
 		)
 		(uuid "7cac7091-f3e7-4f5c-b125-babe2141eeb1")
+	)
+	(wire
+		(pts
+			(xy 132.08 59.69) (xy 135.89 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cd1d8c1-d399-457d-9863-b0ac8de64a91")
 	)
 	(wire
 		(pts
@@ -2765,6 +2763,16 @@
 			(type default)
 		)
 		(uuid "8f6f700d-1137-4bf5-be54-3dd8ab2bf869")
+	)
+	(wire
+		(pts
+			(xy 193.04 62.23) (xy 196.85 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9005f8ee-49b5-4e6c-9e04-6a903dd94429")
 	)
 	(wire
 		(pts
@@ -2835,6 +2843,16 @@
 			(type default)
 		)
 		(uuid "aec4e630-c290-45a6-b15c-734d2f16ab76")
+	)
+	(wire
+		(pts
+			(xy 113.03 59.69) (xy 125.73 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1b4aadf-4f2f-460d-bfde-e698143a6636")
 	)
 	(wire
 		(pts
@@ -2928,7 +2946,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 62.23) (xy 125.73 62.23)
+			(xy 125.73 62.23) (xy 135.89 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2955,6 +2973,16 @@
 			(type default)
 		)
 		(uuid "cff5b7b4-5983-485d-8c44-910903b643cc")
+	)
+	(wire
+		(pts
+			(xy 113.03 62.23) (xy 116.84 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d32c1f1e-4c89-491c-962d-c416bcb3613a")
 	)
 	(wire
 		(pts
@@ -2998,7 +3026,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 62.23) (xy 165.1 62.23)
+			(xy 165.1 62.23) (xy 175.26 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3025,6 +3053,36 @@
 			(type default)
 		)
 		(uuid "e63e3efb-b573-4600-a234-29a2375e9107")
+	)
+	(wire
+		(pts
+			(xy 50.8 59.69) (xy 54.61 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea59f87c-c5e8-445f-9901-312961571967")
+	)
+	(wire
+		(pts
+			(xy 72.39 59.69) (xy 85.09 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb2697d3-8c67-46d4-a1a7-6135b40ade72")
+	)
+	(wire
+		(pts
+			(xy 171.45 59.69) (xy 175.26 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed132013-838b-464b-9a8f-14b59ccd0a03")
 	)
 	(wire
 		(pts
@@ -3065,6 +3123,16 @@
 			(type default)
 		)
 		(uuid "fac57dc0-86cf-4663-9809-7602b9051a8b")
+	)
+	(wire
+		(pts
+			(xy 153.67 62.23) (xy 157.48 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd0e06d3-81f7-4395-bb2c-5486f8ac5403")
 	)
 	(wire
 		(pts
@@ -4323,8 +4391,8 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA:WS2812E")
-		(at 63.5 59.69 0)
+		(lib_id "EASYEDA:WS2812E-V5")
+		(at 64.77 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4348,8 +4416,8 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-BL_TC5050RGB"
-			(at 63.5 69.85 0)
+		(property "Footprint" "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-LS5.4-TL-1"
+			(at 64.77 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4358,7 +4426,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_WS2812E_C139127.html"
-			(at 63.5 72.39 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4367,7 +4435,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 59.69 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4375,8 +4443,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C139127"
-			(at 63.5 74.93 0)
+		(property "LCSC Part" "C2920042"
+			(at 64.77 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4472,8 +4540,8 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA:WS2812E")
-		(at 144.78 59.69 0)
+		(lib_id "EASYEDA:WS2812E-V5")
+		(at 146.05 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4497,8 +4565,8 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-BL_TC5050RGB"
-			(at 144.78 69.85 0)
+		(property "Footprint" "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-LS5.4-TL-1"
+			(at 146.05 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4507,7 +4575,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_WS2812E_C139127.html"
-			(at 144.78 72.39 0)
+			(at 146.05 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4516,7 +4584,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 59.69 0)
+			(at 146.05 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4524,8 +4592,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C139127"
-			(at 144.78 74.93 0)
+		(property "LCSC Part" "C2920042"
+			(at 146.05 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5361,8 +5429,8 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA:WS2812E")
-		(at 184.15 59.69 0)
+		(lib_id "EASYEDA:WS2812E-V5")
+		(at 185.42 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5386,8 +5454,8 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-BL_TC5050RGB"
-			(at 184.15 69.85 0)
+		(property "Footprint" "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-LS5.4-TL-1"
+			(at 185.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5396,7 +5464,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_WS2812E_C139127.html"
-			(at 184.15 72.39 0)
+			(at 185.42 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5405,7 +5473,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 184.15 59.69 0)
+			(at 185.42 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5413,8 +5481,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C139127"
-			(at 184.15 74.93 0)
+		(property "LCSC Part" "C2920042"
+			(at 185.42 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6044,8 +6112,8 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA:WS2812E")
-		(at 104.14 59.69 0)
+		(lib_id "EASYEDA:WS2812E-V5")
+		(at 105.41 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6069,8 +6137,8 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-BL_TC5050RGB"
-			(at 104.14 69.85 0)
+		(property "Footprint" "easyeda2kicad:LED-SMD_4P-L5.0-W5.0-LS5.4-TL-1"
+			(at 105.41 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6079,7 +6147,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_WS2812E_C139127.html"
-			(at 104.14 72.39 0)
+			(at 105.41 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6088,7 +6156,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 59.69 0)
+			(at 105.41 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6096,8 +6164,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C139127"
-			(at 104.14 74.93 0)
+		(property "LCSC Part" "C2920042"
+			(at 105.41 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
