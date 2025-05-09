@@ -3666,7 +3666,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0603"
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 99.06 44.45 0)
 			(effects
 				(font
@@ -3675,7 +3675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10C120JB8NNNC_12pF-120-5-50V_C38523.html"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
 			(at 101.6 44.45 0)
 			(effects
 				(font
@@ -3693,7 +3693,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C38523"
+		(property "LCSC Part" "C1525"
 			(at 104.14 44.45 0)
 			(effects
 				(font
@@ -5377,7 +5377,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0603"
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 139.7 44.45 0)
 			(effects
 				(font
@@ -5386,7 +5386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10C120JB8NNNC_12pF-120-5-50V_C38523.html"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
 			(at 142.24 44.45 0)
 			(effects
 				(font
@@ -5404,7 +5404,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C38523"
+		(property "LCSC Part" "C1525"
 			(at 144.78 44.45 0)
 			(effects
 				(font
@@ -5606,7 +5606,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0603"
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 58.42 44.45 0)
 			(effects
 				(font
@@ -5615,7 +5615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10C120JB8NNNC_12pF-120-5-50V_C38523.html"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
 			(at 60.96 44.45 0)
 			(effects
 				(font
@@ -5633,7 +5633,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C38523"
+		(property "LCSC Part" "C1525"
 			(at 63.5 44.45 0)
 			(effects
 				(font
@@ -5994,7 +5994,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0603"
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 179.07 44.45 0)
 			(effects
 				(font
@@ -6003,7 +6003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10C120JB8NNNC_12pF-120-5-50V_C38523.html"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
 			(at 181.61 44.45 0)
 			(effects
 				(font
@@ -6021,7 +6021,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C38523"
+		(property "LCSC Part" "C1525"
 			(at 184.15 44.45 0)
 			(effects
 				(font
@@ -6534,7 +6534,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0603"
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 95.25 182.88 0)
 			(effects
 				(font
@@ -6543,7 +6543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10C120JB8NNNC_12pF-120-5-50V_C38523.html"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
 			(at 97.79 182.88 0)
 			(effects
 				(font
@@ -6561,7 +6561,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C38523"
+		(property "LCSC Part" "C1525"
 			(at 100.33 182.88 0)
 			(effects
 				(font

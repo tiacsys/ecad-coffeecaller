@@ -4969,7 +4969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0603"
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 143.51 50.8 0)
 			(effects
 				(font
@@ -4978,7 +4978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10C120JB8NNNC_12pF-120-5-50V_C38523.html"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
 			(at 140.97 50.8 0)
 			(effects
 				(font
@@ -4996,7 +4996,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C38523"
+		(property "LCSC Part" "C1525"
 			(at 138.43 50.8 0)
 			(effects
 				(font
@@ -5335,7 +5335,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0603"
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 252.73 64.77 0)
 			(effects
 				(font
@@ -5344,7 +5344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10C120JB8NNNC_12pF-120-5-50V_C38523.html"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
 			(at 252.73 62.23 0)
 			(effects
 				(font
@@ -5362,7 +5362,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C38523"
+		(property "LCSC Part" "C1525"
 			(at 252.73 59.69 0)
 			(effects
 				(font
@@ -5481,7 +5481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:C0603"
+		(property "Footprint" "easyeda2kicad:C0402"
 			(at 69.85 115.57 0)
 			(effects
 				(font
@@ -5490,7 +5490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10C120JB8NNNC_12pF-120-5-50V_C38523.html"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
 			(at 67.31 115.57 0)
 			(effects
 				(font
@@ -5508,7 +5508,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C38523"
+		(property "LCSC Part" "C1525"
 			(at 64.77 115.57 0)
 			(effects
 				(font
