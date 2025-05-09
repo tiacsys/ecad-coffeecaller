@@ -4149,7 +4149,7 @@
 				)
 			)
 		)
-		(property "Value" "LM1117MPX-3.3/NOPB"
+		(property "Value" "AMS1117-3.3"
 			(at 218.44 36.83 0)
 			(effects
 				(font
@@ -4166,7 +4166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Low-Dropout-Regulators-LDO_TI_LM1117MPX-3-3-NOPB_LM1117MPX-3-3-NOPB_C9662.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Low-Dropout-Regulators-LDO_AMS_AMS1117-3-3_AMS1117-3-3_C6186.html"
 			(at 218.44 57.15 0)
 			(effects
 				(font
@@ -4184,7 +4184,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C9662"
+		(property "LCSC Part" "C6186"
 			(at 218.44 59.69 0)
 			(effects
 				(font
