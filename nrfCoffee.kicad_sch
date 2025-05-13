@@ -4288,16 +4288,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 146.05) (xy 55.88 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50999ded-1334-49c7-b3f6-b5b3d36704dd")
-	)
-	(wire
-		(pts
 			(xy 175.26 102.87) (xy 171.45 102.87)
 		)
 		(stroke
@@ -4388,16 +4378,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 148.59) (xy 55.88 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a2b1428-62ea-40fb-8072-c4bbf13141ca")
-	)
-	(wire
-		(pts
 			(xy 43.18 151.13) (xy 55.88 151.13)
 		)
 		(stroke
@@ -4465,6 +4445,16 @@
 			(type default)
 		)
 		(uuid "7114b291-d3d2-453d-9de2-93fa508df8c1")
+	)
+	(wire
+		(pts
+			(xy 43.18 146.05) (xy 55.88 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77cb3f41-a875-4938-893f-9cc62ec9f8c4")
 	)
 	(wire
 		(pts
@@ -4695,6 +4685,16 @@
 			(type default)
 		)
 		(uuid "9619dc7a-fbb9-452d-97fa-ea741fe86816")
+	)
+	(wire
+		(pts
+			(xy 43.18 148.59) (xy 55.88 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97e24310-aad1-4d1a-891c-92b90cd3d707")
 	)
 	(wire
 		(pts
@@ -5188,7 +5188,7 @@
 	)
 	(global_label "+3V3"
 		(shape input)
-		(at 43.18 148.59 180)
+		(at 43.18 146.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5198,7 +5198,7 @@
 		)
 		(uuid "1bd4de98-a0d5-49af-a6a0-e4772ada0d27")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.3029 148.59 0)
+			(at 36.3029 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7435,7 +7435,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 146.05 180)
+		(at 43.18 148.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7444,7 +7444,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f42f047-6423-4ffd-9251-a7bc0641830c")
 		(property "Reference" "#PWR052"
-			(at 43.18 139.7 0)
+			(at 36.83 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7453,15 +7453,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 140.97 0)
+			(at 39.37 148.5899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 146.05 0)
+			(at 43.18 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7470,7 +7471,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 146.05 0)
+			(at 43.18 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7479,7 +7480,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 146.05 0)
+			(at 43.18 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)

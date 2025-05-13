@@ -9,6 +9,113 @@
 		(date "2025-05-03")
 	)
 	(lib_symbols
+		(symbol "EASYEDA:0603WAF5101T5E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0603WAF5101T5E"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:R0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_5-1KR-5101-1_C23186.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C23186"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603WAF5101T5E_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "EASYEDA:0603WAF750JT5E"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2177,6 +2284,12 @@
 		(uuid "71df84d1-b7a3-4618-a258-29c28485ca0e")
 	)
 	(junction
+		(at 137.16 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83bcd25c-95c5-4b9d-9ed2-bb71bced5119")
+	)
+	(junction
 		(at 41.91 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2207,6 +2320,12 @@
 		(uuid "aeda9112-1c3b-49b4-aebc-2148e527934d")
 	)
 	(junction
+		(at 146.05 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7d6f2c2-87ef-4098-aca5-87dc4be1c63c")
+	)
+	(junction
 		(at 26.67 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2233,6 +2352,16 @@
 	(no_connect
 		(at 76.2 171.45)
 		(uuid "5c8ddef6-7012-4564-9103-87508869efdb")
+	)
+	(wire
+		(pts
+			(xy 137.16 172.72) (xy 137.16 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03952124-b466-413d-a736-cd45f518ef91")
 	)
 	(wire
 		(pts
@@ -2326,6 +2455,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 184.15) (xy 146.05 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18b66b6e-d06e-4bbd-aba9-f482df3a2f3a")
+	)
+	(wire
+		(pts
 			(xy 91.44 52.07) (xy 91.44 59.69)
 		)
 		(stroke
@@ -2383,6 +2522,16 @@
 			(type default)
 		)
 		(uuid "27edba9a-6cd7-463e-8346-eb895effb181")
+	)
+	(wire
+		(pts
+			(xy 137.16 172.72) (xy 138.43 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "303fb747-5668-47cc-b6aa-3e68abecedb0")
 	)
 	(wire
 		(pts
@@ -2503,6 +2652,16 @@
 			(type default)
 		)
 		(uuid "4b5beca7-af77-4ce7-a647-bbff11db4fc2")
+	)
+	(wire
+		(pts
+			(xy 137.16 184.15) (xy 146.05 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50711e8e-18c6-4d6a-9c41-644b3c07a8ac")
 	)
 	(wire
 		(pts
@@ -2636,7 +2795,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 172.72) (xy 138.43 172.72)
+			(xy 134.62 172.72) (xy 137.16 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2746,7 +2905,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 177.8) (xy 146.05 182.88)
+			(xy 146.05 177.8) (xy 146.05 184.15)
 		)
 		(stroke
 			(width 0)
@@ -4318,6 +4477,85 @@
 			(project "nrfCoffee"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA:0603WAF5101T5E")
+		(at 137.16 179.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5266667e-5d99-4758-96d4-eb5e4ea2f2a4")
+		(property "Reference" "R10"
+			(at 139.7 177.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5k1"
+			(at 139.7 180.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 129.54 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_5-1KR-5101-1_C23186.html"
+			(at 127 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23186"
+			(at 124.46 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c714ad46-5b7c-4387-a878-04e2820ecaac")
+		)
+		(pin "2"
+			(uuid "61435170-911e-4959-bf94-b4dddf7d213e")
+		)
+		(instances
+			(project "nrfCoffee"
+				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -6047,7 +6285,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 146.05 182.88 0)
+		(at 146.05 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6056,7 +6294,7 @@
 		(fields_autoplaced yes)
 		(uuid "c07500e4-231a-42e6-b93c-2816378cb2f6")
 		(property "Reference" "#PWR042"
-			(at 146.05 189.23 0)
+			(at 146.05 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6065,7 +6303,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 187.96 0)
+			(at 146.05 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6073,7 +6311,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 182.88 0)
+			(at 146.05 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6082,7 +6320,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 182.88 0)
+			(at 146.05 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6091,7 +6329,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 182.88 0)
+			(at 146.05 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
