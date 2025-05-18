@@ -1681,6 +1681,126 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "EASYEDA:SS210"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SS210"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SMA_L4.3-W2.6-LS5.2-RD"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_SS210_C14996.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C14996"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SS210_0_1"
+				(polyline
+					(pts
+						(xy -2.03 1.52) (xy -2.03 1.78) (xy -1.52 1.78) (xy -1.52 -2.03) (xy -1.02 -2.03) (xy -1.02 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.52) (xy -1.27 0) (xy 1.27 -1.78) (xy 1.27 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "EASYEDA:TS-1088R-02026"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2296,6 +2416,12 @@
 		(uuid "8b549565-943d-4145-9d1d-fde07a42da39")
 	)
 	(junction
+		(at 146.05 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "937182ce-e7a6-4116-b338-12354f4636cb")
+	)
+	(junction
 		(at 41.91 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2338,6 +2464,12 @@
 		(uuid "d8927733-7b13-45a0-bf66-f5594d15045c")
 	)
 	(junction
+		(at 146.05 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8ff5587-8c8b-402d-86e6-5fa1ab514d20")
+	)
+	(junction
 		(at 31.75 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2352,6 +2484,16 @@
 	(no_connect
 		(at 76.2 171.45)
 		(uuid "5c8ddef6-7012-4564-9103-87508869efdb")
+	)
+	(wire
+		(pts
+			(xy 146.05 153.67) (xy 146.05 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01d8e77c-cf93-47a3-b39c-9a28f96283e1")
 	)
 	(wire
 		(pts
@@ -2415,7 +2557,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 158.75) (xy 146.05 158.75)
+			(xy 132.08 147.32) (xy 146.05 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2715,6 +2857,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 153.67) (xy 146.05 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b123c4b-9b3c-4d87-b3fa-01cdc902e36e")
+	)
+	(wire
+		(pts
 			(xy 72.39 62.23) (xy 76.2 62.23)
 		)
 		(stroke
@@ -2755,13 +2907,23 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 161.29) (xy 146.05 167.64)
+			(xy 146.05 161.29) (xy 146.05 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6b98a959-6f15-4571-9dd4-2fdd9b22ce5e")
+	)
+	(wire
+		(pts
+			(xy 146.05 163.83) (xy 146.05 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ed89cef-2322-4836-aa91-623271089aae")
 	)
 	(wire
 		(pts
@@ -2772,6 +2934,16 @@
 			(type default)
 		)
 		(uuid "7156e0c3-fa38-4917-a53f-8eec7e540e8f")
+	)
+	(wire
+		(pts
+			(xy 138.43 163.83) (xy 146.05 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71ca2869-3484-4b67-ad14-e8bc8f545555")
 	)
 	(wire
 		(pts
@@ -2982,6 +3154,16 @@
 			(type default)
 		)
 		(uuid "a7d8e2a3-a7e9-40a7-8b09-9afeb201131d")
+	)
+	(wire
+		(pts
+			(xy 146.05 147.32) (xy 146.05 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a878e48e-5728-45c6-8f71-945ac6147a20")
 	)
 	(wire
 		(pts
@@ -3689,7 +3871,7 @@
 	)
 	(global_label "VBUSnRF"
 		(shape input)
-		(at 138.43 158.75 180)
+		(at 132.08 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3699,7 +3881,7 @@
 		)
 		(uuid "b0236777-10e2-475e-8a64-aa8db04eb66c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.0386 158.75 0)
+			(at 120.6886 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6663,6 +6845,85 @@
 			(project "nrfCoffee"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "LD3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA:SS210")
+		(at 138.43 158.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd989e45-0e77-4dce-90ad-364303e6854a")
+		(property "Reference" "D5"
+			(at 140.97 157.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS210"
+			(at 140.97 159.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SMA_L4.3-W2.6-LS5.2-RD"
+			(at 130.81 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_SS210_C14996.html"
+			(at 128.27 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C14996"
+			(at 125.73 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "708470e0-8419-4401-bc82-bbd1f5bdccf2")
+		)
+		(pin "2"
+			(uuid "56e44221-6a2c-4f50-8d28-149e05073102")
+		)
+		(instances
+			(project ""
+				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
+					(reference "D5")
 					(unit 1)
 				)
 			)
