@@ -116,7 +116,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EASYEDA:0603WAF750JT5E"
+		(symbol "EASYEDA:0603WAF8200T5E"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -128,7 +128,7 @@
 					)
 				)
 			)
-			(property "Value" "0603WAF750JT5E"
+			(property "Value" "0603WAF8200T5E"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -145,7 +145,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_75R-75R0-1_C4275.html"
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_820R-8200-1_C23253.html"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -163,7 +163,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C4275"
+			(property "LCSC Part" "C23253"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -172,7 +172,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "0603WAF750JT5E_0_1"
+			(symbol "0603WAF8200T5E_0_1"
 				(rectangle
 					(start -2.54 1.02)
 					(end 2.54 -1.02)
@@ -4123,8 +4123,8 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA:0603WAF750JT5E")
-		(at 46.99 134.62 0)
+		(lib_id "EASYEDA:0603WAF8200T5E")
+		(at 46.99 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4133,15 +4133,15 @@
 		(fields_autoplaced yes)
 		(uuid "2104f611-f8b3-4476-bd9a-f041de0f6dda")
 		(property "Reference" "R8"
-			(at 46.99 128.27 0)
+			(at 46.99 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "75"
-			(at 46.99 130.81 0)
+		(property "Value" "820R"
+			(at 46.99 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4149,7 +4149,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:R0603"
-			(at 46.99 142.24 0)
+			(at 46.99 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4157,8 +4157,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_75R-75R0-1_C4275.html"
-			(at 46.99 144.78 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_820R-8200-1_C23253.html"
+			(at 46.99 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4167,7 +4167,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 134.62 0)
+			(at 46.99 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4175,8 +4175,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C4275"
-			(at 46.99 147.32 0)
+		(property "LCSC Part" "C23253"
+			(at 46.99 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5088,7 +5088,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "220R"
 			(at 129.54 168.91 0)
 			(effects
 				(font
@@ -5214,8 +5214,8 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA:0603WAF750JT5E")
-		(at 46.99 120.65 0)
+		(lib_id "EASYEDA:0603WAF8200T5E")
+		(at 46.99 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5224,15 +5224,15 @@
 		(fields_autoplaced yes)
 		(uuid "877b19bf-51ec-460d-beca-d4b36d2c603f")
 		(property "Reference" "R7"
-			(at 46.99 114.3 0)
+			(at 46.99 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "75"
-			(at 46.99 116.84 0)
+		(property "Value" "820R"
+			(at 46.99 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5240,7 +5240,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:R0603"
-			(at 46.99 128.27 0)
+			(at 46.99 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5248,8 +5248,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_75R-75R0-1_C4275.html"
-			(at 46.99 130.81 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_820R-8200-1_C23253.html"
+			(at 46.99 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5258,7 +5258,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 120.65 0)
+			(at 46.99 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5266,8 +5266,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C4275"
-			(at 46.99 133.35 0)
+		(property "LCSC Part" "C23253"
+			(at 46.99 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5291,8 +5291,8 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA:0603WAF750JT5E")
-		(at 46.99 93.98 0)
+		(lib_id "EASYEDA:0603WAF8200T5E")
+		(at 46.99 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5301,15 +5301,15 @@
 		(fields_autoplaced yes)
 		(uuid "8c216669-1f6b-4f21-a2c0-01d80401c435")
 		(property "Reference" "R5"
-			(at 46.99 87.63 0)
+			(at 46.99 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "75"
-			(at 46.99 90.17 0)
+		(property "Value" "820R"
+			(at 46.99 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5317,7 +5317,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:R0603"
-			(at 46.99 101.6 0)
+			(at 46.99 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5325,8 +5325,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_75R-75R0-1_C4275.html"
-			(at 46.99 104.14 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_820R-8200-1_C23253.html"
+			(at 46.99 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5335,7 +5335,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 93.98 0)
+			(at 46.99 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5343,8 +5343,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C4275"
-			(at 46.99 106.68 0)
+		(property "LCSC Part" "C23253"
+			(at 46.99 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6450,7 +6450,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "220R"
 			(at 208.28 55.88 0)
 			(effects
 				(font
@@ -6824,8 +6824,8 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA:0603WAF750JT5E")
-		(at 46.99 107.95 0)
+		(lib_id "EASYEDA:0603WAF8200T5E")
+		(at 46.99 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6834,15 +6834,15 @@
 		(fields_autoplaced yes)
 		(uuid "f7b266c2-f133-4324-b1b3-1a0795aab6b8")
 		(property "Reference" "R6"
-			(at 46.99 101.6 0)
+			(at 46.99 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "75"
-			(at 46.99 104.14 0)
+		(property "Value" "820R"
+			(at 46.99 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6850,7 +6850,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:R0603"
-			(at 46.99 115.57 0)
+			(at 46.99 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6858,8 +6858,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_75R-75R0-1_C4275.html"
-			(at 46.99 118.11 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_820R-8200-1_C23253.html"
+			(at 46.99 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6868,7 +6868,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 107.95 0)
+			(at 46.99 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6876,8 +6876,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C4275"
-			(at 46.99 120.65 0)
+		(property "LCSC Part" "C23253"
+			(at 46.99 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
