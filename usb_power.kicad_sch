@@ -823,7 +823,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EASYEDA:CL10A106MA8NRNC"
+		(symbol "EASYEDA:CL10A475KP8NNNC"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -835,7 +835,7 @@
 					)
 				)
 			)
-			(property "Value" "CL10A106MA8NRNC"
+			(property "Value" "CL10A475KP8NNNC"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -852,7 +852,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A106MA8NRNC_10uF-106-20-25V_C96446.html"
+			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A475KP8NNNC_4-7uF-475-10-10V_C1705.html"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -870,7 +870,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C96446"
+			(property "LCSC Part" "C1705"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -879,10 +879,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "CL10A106MA8NRNC_0_1"
+			(symbol "CL10A475KP8NNNC_0_1"
 				(polyline
 					(pts
-						(xy -0.51 0) (xy -2.54 0)
+						(xy -1.27 0) (xy -0.51 0)
 					)
 					(stroke
 						(width 0)
@@ -894,7 +894,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.51 -2.03) (xy -0.51 2.03)
+						(xy -0.51 2.03) (xy -0.51 -2.03)
 					)
 					(stroke
 						(width 0)
@@ -918,7 +918,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 0.51 0)
+						(xy 0.51 0) (xy 1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -928,8 +928,8 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
-					(at -5.08 0 0)
+				(pin input line
+					(at -3.81 0 0)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -946,8 +946,8 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 5.08 0 180)
+				(pin input line
+					(at 3.81 0 180)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -2328,13 +2328,13 @@
 		(uuid "08e5b9d2-2077-41c6-bdcd-2effdc8dba07")
 	)
 	(junction
-		(at 91.44 66.04)
+		(at 63.5 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1044d188-7980-4110-bb51-68c912d8ae59")
+		(uuid "19f4f458-dc2f-456d-ba7e-536c27eb468f")
 	)
 	(junction
-		(at 151.13 41.91)
+		(at 151.13 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c440440-fa29-49af-950a-d89d5f42cb4a")
@@ -2376,6 +2376,12 @@
 		(uuid "737b2445-14a5-40ba-a2e2-a75a5906e60d")
 	)
 	(junction
+		(at 64.77 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fa15c1e-ce12-4ea6-b57c-a01536304d77")
+	)
+	(junction
 		(at 240.03 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2388,10 +2394,22 @@
 		(uuid "885419e1-5e1f-4309-ab23-52e2f6cff807")
 	)
 	(junction
-		(at 135.89 41.91)
+		(at 64.77 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f4ed5fa-0dc6-4449-a672-f15dcaa6378e")
+	)
+	(junction
+		(at 135.89 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a18a2084-bb5f-460d-ae5a-f7288f53d22e")
+	)
+	(junction
+		(at 35.56 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4f1af64-a91a-4d08-ba45-a499e66d385c")
 	)
 	(junction
 		(at 259.08 36.83)
@@ -2400,16 +2418,22 @@
 		(uuid "b8b8e1b8-67aa-47db-8ca6-0873786c935c")
 	)
 	(junction
+		(at 91.44 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbe1dfcf-a010-44b8-984d-af22ff61d173")
+	)
+	(junction
+		(at 63.5 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3bf7462-620a-42bd-8052-c2e466d357b8")
+	)
+	(junction
 		(at 77.47 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fceafc74-e007-4b20-9b68-514153674e8c")
-	)
-	(junction
-		(at 35.56 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff643378-a95b-4b19-9de9-97b639b134c0")
 	)
 	(no_connect
 		(at 74.93 48.26)
@@ -2418,16 +2442,6 @@
 	(no_connect
 		(at 52.07 55.88)
 		(uuid "a0a813f5-cb29-4a75-8781-897152cc5e23")
-	)
-	(wire
-		(pts
-			(xy 62.23 73.66) (xy 62.23 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00ffd099-b94b-4fb7-a94e-ab49fbf8b0fa")
 	)
 	(wire
 		(pts
@@ -2441,7 +2455,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 41.91) (xy 151.13 41.91)
+			(xy 148.59 30.48) (xy 151.13 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2461,13 +2475,23 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 73.66) (xy 62.23 73.66)
+			(xy 64.77 73.66) (xy 63.5 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0f7314a4-65d3-49a6-8d3e-8141ca038464")
+	)
+	(wire
+		(pts
+			(xy 63.5 24.13) (xy 63.5 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f5f000-0545-413a-b21c-378ecf2caeab")
 	)
 	(wire
 		(pts
@@ -2521,6 +2545,26 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 24.13) (xy 63.5 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3306d64c-0208-4848-a96d-1b4801331da8")
+	)
+	(wire
+		(pts
+			(xy 156.21 76.2) (xy 156.21 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37086b98-12c1-4d04-b7d2-165fc443cfec")
+	)
+	(wire
+		(pts
 			(xy 196.85 27.94) (xy 196.85 30.48)
 		)
 		(stroke
@@ -2541,6 +2585,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 27.94) (xy 62.23 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e08fc30-6f1b-48d5-b273-7745c37d014e")
+	)
+	(wire
+		(pts
 			(xy 251.46 46.99) (xy 251.46 52.07)
 		)
 		(stroke
@@ -2548,6 +2602,36 @@
 			(type default)
 		)
 		(uuid "402ddd4f-b424-4c82-9970-b867a3b55abf")
+	)
+	(wire
+		(pts
+			(xy 90.17 107.95) (xy 90.17 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41566a9e-2ce4-4797-b18d-8bdb1cca5905")
+	)
+	(wire
+		(pts
+			(xy 82.55 27.94) (xy 64.77 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4225eaf9-91cd-4b1b-a50f-81d7a3080280")
+	)
+	(wire
+		(pts
+			(xy 90.17 119.38) (xy 90.17 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "447e3757-1c71-4315-87a7-d166d04686db")
 	)
 	(wire
 		(pts
@@ -2571,6 +2655,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 38.1) (xy 46.99 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ee9ec9e-c68a-4713-973f-d72caa9cabd9")
+	)
+	(wire
+		(pts
 			(xy 240.03 36.83) (xy 251.46 36.83)
 		)
 		(stroke
@@ -2581,13 +2675,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 38.1) (xy 52.07 38.1)
+			(xy 35.56 73.66) (xy 62.23 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "562724fe-13bb-4852-b31c-212d36a4ca6d")
+		(uuid "59b2235e-066d-42cc-b3b3-607c62dd222d")
 	)
 	(wire
 		(pts
@@ -2611,23 +2705,43 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 38.1) (xy 78.74 38.1)
+			(xy 62.23 80.01) (xy 63.5 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "71648fbd-ec5c-4063-a6cf-61ed7ebb0f61")
+		(uuid "6848b242-8828-4f1f-b6a3-70df58f00813")
 	)
 	(wire
 		(pts
-			(xy 151.13 54.61) (xy 151.13 59.69)
+			(xy 46.99 38.1) (xy 46.99 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68b98ac6-3e9d-4e3c-b0eb-9adb8ba67036")
+	)
+	(wire
+		(pts
+			(xy 151.13 43.18) (xy 151.13 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "779c79ca-d5b1-40f9-9939-26e1e42f511f")
+	)
+	(wire
+		(pts
+			(xy 35.56 66.04) (xy 35.56 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79261604-8ab9-4a1d-b29d-e96ea35a3dc4")
 	)
 	(wire
 		(pts
@@ -2641,13 +2755,43 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 25.4) (xy 62.23 27.94)
+			(xy 63.5 27.94) (xy 62.23 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ce6381e-635f-479f-a62c-70d16acdf639")
+		(uuid "7bac83cb-231f-4d80-8298-3546367f9158")
+	)
+	(wire
+		(pts
+			(xy 91.44 66.04) (xy 91.44 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "847072d8-e45c-473c-b539-cbd957637400")
+	)
+	(wire
+		(pts
+			(xy 74.93 38.1) (xy 82.55 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c0e73cc-e04d-4376-a50f-91877202b2f1")
+	)
+	(wire
+		(pts
+			(xy 63.5 73.66) (xy 62.23 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8df6b9e5-047d-401c-a420-08428ec73bfb")
 	)
 	(wire
 		(pts
@@ -2701,6 +2845,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 68.58) (xy 148.59 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4395e63-67d6-456f-b549-1a01d2a4f4e9")
+	)
+	(wire
+		(pts
 			(xy 77.47 107.95) (xy 77.47 111.76)
 		)
 		(stroke
@@ -2721,7 +2875,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 27.94) (xy 62.23 27.94)
+			(xy 64.77 27.94) (xy 63.5 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2731,13 +2885,13 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 121.92) (xy 90.17 124.46)
+			(xy 63.5 80.01) (xy 63.5 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ab2de501-393f-4903-9563-2c82dd56b558")
+		(uuid "ac14c7b0-ef82-4d64-b0a7-de671b456733")
 	)
 	(wire
 		(pts
@@ -2751,16 +2905,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 107.95) (xy 90.17 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adc07a36-0f60-4437-8e3e-43eda6c6607c")
-	)
-	(wire
-		(pts
 			(xy 69.85 107.95) (xy 77.47 107.95)
 		)
 		(stroke
@@ -2768,16 +2912,6 @@
 			(type default)
 		)
 		(uuid "b36d26a3-50e1-46f3-a72d-f96538b7ba0f")
-	)
-	(wire
-		(pts
-			(xy 91.44 66.04) (xy 100.33 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba67d8ae-c61b-4851-96bc-561c0515e676")
 	)
 	(wire
 		(pts
@@ -2791,13 +2925,33 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 41.91) (xy 156.21 41.91)
+			(xy 91.44 73.66) (xy 64.77 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb9d8855-75d8-407c-a675-13e288928172")
+	)
+	(wire
+		(pts
+			(xy 151.13 30.48) (xy 156.21 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c19afbe0-1773-4967-ab3a-0107b8debffb")
+	)
+	(wire
+		(pts
+			(xy 130.81 68.58) (xy 138.43 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1fd995b-890a-4b91-a75f-2412ec5bdf9a")
 	)
 	(wire
 		(pts
@@ -2851,17 +3005,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 66.04) (xy 35.56 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccb4055d-5378-4ed4-994d-cdf5897471c6")
-	)
-	(wire
-		(pts
-			(xy 151.13 41.91) (xy 151.13 46.99)
+			(xy 151.13 30.48) (xy 151.13 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2871,7 +3015,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 41.91) (xy 135.89 41.91)
+			(xy 130.81 30.48) (xy 135.89 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2901,7 +3045,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 41.91) (xy 138.43 41.91)
+			(xy 135.89 30.48) (xy 138.43 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2911,7 +3055,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 54.61) (xy 135.89 59.69)
+			(xy 135.89 43.18) (xy 135.89 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2941,7 +3085,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 46.99) (xy 135.89 41.91)
+			(xy 135.89 35.56) (xy 135.89 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3029,6 +3173,16 @@
 		)
 		(uuid "fa110c52-5d2e-444a-8cf8-62da579b54f2")
 	)
+	(wire
+		(pts
+			(xy 82.55 38.1) (xy 82.55 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc45dd20-0b7a-45c8-9de5-28cb2a485e43")
+	)
 	(global_label "USB_N"
 		(shape input)
 		(at 78.74 50.8 0)
@@ -3075,7 +3229,7 @@
 	)
 	(global_label "VBUS"
 		(shape input)
-		(at 130.81 41.91 180)
+		(at 130.81 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3085,7 +3239,7 @@
 		)
 		(uuid "325ccf6e-ecf9-47ae-9b54-f5b04edd7eaf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.9262 41.91 0)
+			(at 122.9262 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3108,6 +3262,28 @@
 		(uuid "41f737af-80cd-438d-b3af-5716e5841d93")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 41.6462 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_GND"
+		(shape input)
+		(at 130.81 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "487c9922-bff8-4354-99f1-14ae3ff4a297")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.8856 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3227,6 +3403,28 @@
 			)
 		)
 	)
+	(global_label "USB_GND"
+		(shape input)
+		(at 62.23 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8e92391-16e1-4b7c-8290-2111d6c9e142")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.3056 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VBUS"
 		(shape input)
 		(at 99.06 107.95 0)
@@ -3295,7 +3493,7 @@
 	)
 	(global_label "VBUSnRF"
 		(shape input)
-		(at 156.21 41.91 0)
+		(at 156.21 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3305,7 +3503,7 @@
 		)
 		(uuid "f07e8438-69c7-4dbf-b54b-09f88225eef2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.6014 41.91 0)
+			(at 167.6014 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3356,6 +3554,94 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_GND"
+		(shape input)
+		(at 62.23 24.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fcca0c37-f92e-4caf-ac9e-0daccbab28f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.3056 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 156.21 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "025a9941-a36c-456e-97e6-d2caa2ae9ac9")
+		(property "Reference" "#PWR05"
+			(at 156.21 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0022577-5d40-485c-ba9e-07d8526c5f34")
+		)
+		(instances
+			(project "nrfCoffee"
+				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
+					(reference "#PWR05")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3431,73 +3717,6 @@
 			(project "nrfCoffee"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
 					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 100.33 66.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08beec9d-7306-436d-88e9-1dd944ab8d34")
-		(property "Reference" "#PWR011"
-			(at 106.68 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 104.14 66.0399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a5a68d3-e4e7-40bc-b07b-fffaad88fb92")
-		)
-		(instances
-			(project "nrfCoffee"
-				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3991,73 +4210,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 26.67 66.04 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "60ae8a22-2247-4261-b427-d8dabe4ac8b5")
-		(property "Reference" "#PWR010"
-			(at 20.32 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 22.86 66.0399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "437ddbd0-8e13-40dd-8d99-0ed1fe0e4a93")
-		)
-		(instances
-			(project "nrfCoffee"
-				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "EASYEDA:0603Whitelight_C2290")
 		(at 257.81 64.77 90)
 		(unit 1)
@@ -4203,7 +4355,7 @@
 	)
 	(symbol
 		(lib_id "EASYEDA:BLM15AG121SH1D")
-		(at 143.51 41.91 0)
+		(at 143.51 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4212,7 +4364,7 @@
 		(fields_autoplaced yes)
 		(uuid "8fbedc4c-dd0c-4a79-a457-7e05f828052e")
 		(property "Reference" "L3"
-			(at 143.51 36.83 0)
+			(at 143.51 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4220,7 +4372,7 @@
 			)
 		)
 		(property "Value" "120R@100MHz"
-			(at 143.51 39.37 0)
+			(at 143.51 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4228,7 +4380,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:L0402"
-			(at 143.51 49.53 0)
+			(at 143.51 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4237,7 +4389,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Ferrite-Beads-And-Chips_muRata_BLM15AG121SH1D_120R-25-at100MHz_C91573.html"
-			(at 143.51 52.07 0)
+			(at 143.51 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4246,7 +4398,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 41.91 0)
+			(at 143.51 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4255,7 +4407,7 @@
 			)
 		)
 		(property "LCSC Part" "C91573"
-			(at 143.51 54.61 0)
+			(at 143.51 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4358,73 +4510,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 49.53 38.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94220e0d-612c-4631-935e-79014a659546")
-		(property "Reference" "#PWR08"
-			(at 43.18 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 45.72 38.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d38e05d-82ab-4369-a0e7-b92503497e38")
-		)
-		(instances
-			(project "nrfCoffee"
-				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "EASYEDA:XC6206P332MR")
 		(at 218.44 41.91 0)
 		(unit 1)
@@ -4505,74 +4590,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 62.23 25.4 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99207566-1d77-46e6-89ed-0143405f4939")
-		(property "Reference" "#PWR014"
-			(at 62.23 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 62.23 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1924df6c-6288-43f6-8a01-bff0bc5eceb0")
-		)
-		(instances
-			(project "nrfCoffee"
-				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "EASYEDA:0603B103K500NT")
-		(at 135.89 50.8 270)
+		(at 135.89 39.37 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4581,7 +4600,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ca683a7-9c84-494b-b7fe-e43c02d988ca")
 		(property "Reference" "C5"
-			(at 139.7 49.5299 90)
+			(at 139.7 38.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4590,7 +4609,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 139.7 52.0699 90)
+			(at 139.7 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4599,7 +4618,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:C0603"
-			(at 128.27 50.8 0)
+			(at 128.27 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4608,7 +4627,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_10nF-103-10-50V_C57112.html"
-			(at 125.73 50.8 0)
+			(at 125.73 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4617,7 +4636,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 50.8 0)
+			(at 135.89 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4626,7 +4645,7 @@
 			)
 		)
 		(property "LCSC Part" "C57112"
-			(at 123.19 50.8 0)
+			(at 123.19 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4651,7 +4670,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 135.89 59.69 0)
+		(at 135.89 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4660,7 +4679,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1c7a0e0-fe12-4cf2-947b-7fe00d56d8f9")
 		(property "Reference" "#PWR017"
-			(at 135.89 66.04 0)
+			(at 135.89 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4669,7 +4688,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 64.77 0)
+			(at 135.89 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4677,7 +4696,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 59.69 0)
+			(at 135.89 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4686,7 +4705,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 59.69 0)
+			(at 135.89 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4695,7 +4714,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 59.69 0)
+			(at 135.89 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4716,8 +4735,87 @@
 		)
 	)
 	(symbol
+		(lib_id "EASYEDA:CL10A475KP8NNNC")
+		(at 90.17 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2187848-daf2-4e15-8ca8-3c1cde8eb2ea")
+		(property "Reference" "C7"
+			(at 93.98 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7µF"
+			(at 93.98 116.8399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0603"
+			(at 82.55 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/20375-CL10A475KO8NNNC/C19666"
+			(at 80.01 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19666"
+			(at 77.47 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "687df269-a23a-4c7f-b948-97e886e4a9e0")
+		)
+		(pin "1"
+			(uuid "51881333-90d0-4a5c-be93-d0f155601b8d")
+		)
+		(instances
+			(project "nrfCoffee"
+				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 151.13 59.69 0)
+		(at 151.13 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4726,7 +4824,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab6c0a90-c6ca-4349-8111-9cd9eed3b52e")
 		(property "Reference" "#PWR018"
-			(at 151.13 66.04 0)
+			(at 151.13 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4735,7 +4833,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 64.77 0)
+			(at 151.13 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4743,7 +4841,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 59.69 0)
+			(at 151.13 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4752,7 +4850,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 59.69 0)
+			(at 151.13 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4761,7 +4859,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 59.69 0)
+			(at 151.13 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4776,85 +4874,6 @@
 			(project "nrfCoffee"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EASYEDA:CL10A106MA8NRNC")
-		(at 90.17 116.84 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b362c586-9082-4e15-a5d1-3ddf8d1366ab")
-		(property "Reference" "C7"
-			(at 93.98 115.5699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10µF"
-			(at 93.98 118.1099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0603"
-			(at 82.55 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A106MA8NRNC_10uF-106-20-25V_C96446.html"
-			(at 80.01 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 90.17 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C96446"
-			(at 77.47 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "70210192-8f5e-408d-af43-0cd094910084")
-		)
-		(pin "1"
-			(uuid "eacf8021-01ab-4ffa-91f8-1b0097db264e")
-		)
-		(instances
-			(project "nrfCoffee"
-				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -4944,7 +4963,7 @@
 	)
 	(symbol
 		(lib_id "EASYEDA:CL10C120JB8NNNC")
-		(at 151.13 50.8 270)
+		(at 151.13 39.37 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4953,7 +4972,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7732d89-702d-4dea-9984-dd00cfc4e0f5")
 		(property "Reference" "C6"
-			(at 154.94 49.5299 90)
+			(at 154.94 38.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4962,7 +4981,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 154.94 52.0699 90)
+			(at 154.94 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4971,7 +4990,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:C0402"
-			(at 143.51 50.8 0)
+			(at 143.51 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4980,7 +4999,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
-			(at 140.97 50.8 0)
+			(at 140.97 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4989,7 +5008,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 50.8 0)
+			(at 151.13 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4998,7 +5017,7 @@
 			)
 		)
 		(property "LCSC Part" "C1525"
-			(at 138.43 50.8 0)
+			(at 138.43 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5095,139 +5114,6 @@
 			(project "nrfCoffee"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 78.74 38.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ddff7f27-b1b2-4280-be62-189a809d0269")
-		(property "Reference" "#PWR09"
-			(at 85.09 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 82.55 38.0999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1d9a530-acfc-4e48-bc76-aaaaa9873419")
-		)
-		(instances
-			(project "nrfCoffee"
-				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 62.23 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e261935d-5e63-4161-9804-eb33ce25f94a")
-		(property "Reference" "#PWR013"
-			(at 62.23 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 62.23 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d52a92e3-63ce-4c00-9d7f-7995a8c40f92")
-		)
-		(instances
-			(project "nrfCoffee"
-				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5371,6 +5257,83 @@
 			(project "nrfCoffee"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA:BLM15AG121SH1D")
+		(at 143.51 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f989ad76-e23e-434c-86b4-0704cc5556eb")
+		(property "Reference" "L4"
+			(at 143.51 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120R@100MHz"
+			(at 143.51 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:L0402"
+			(at 143.51 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Ferrite-Beads-And-Chips_muRata_BLM15AG121SH1D_120R-25-at100MHz_C91573.html"
+			(at 143.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C91573"
+			(at 143.51 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc9eb6db-5ad5-4e73-9e00-c064333a4228")
+		)
+		(pin "2"
+			(uuid "f4df02b9-3400-440b-af41-2335b10174d0")
+		)
+		(instances
+			(project "nrfCoffee"
+				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
+					(reference "L4")
 					(unit 1)
 				)
 			)
