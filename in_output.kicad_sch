@@ -4239,7 +4239,7 @@
 				)
 			)
 		)
-		(property "Value" "DTSM-24N-V-S-T/R"
+		(property "Value" "TS-1003S-07026"
 			(at 210.82 109.22 0)
 			(effects
 				(font
@@ -4256,7 +4256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Others_Diptronics-DTSM-24N-V-S-T-R_C192992.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XUNPU-TS-1003S-07026_C455223.html"
 			(at 210.82 127 0)
 			(effects
 				(font
@@ -4274,7 +4274,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C192992"
+		(property "LCSC Part" "C455223"
 			(at 210.82 129.54 0)
 			(effects
 				(font
