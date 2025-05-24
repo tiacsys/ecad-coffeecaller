@@ -2380,10 +2380,22 @@
 		(uuid "41e2e260-e2b9-4a27-8884-5e333a757d80")
 	)
 	(junction
+		(at 60.96 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "533d5b3f-224f-40b6-89f0-1a267a66d9a0")
+	)
+	(junction
 		(at 132.08 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5bf7bb4b-96ca-41e9-bcb1-50bcfb322194")
+	)
+	(junction
+		(at 60.96 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6eb0f2dc-787b-4da5-96c4-90cabfec527e")
 	)
 	(junction
 		(at 41.91 120.65)
@@ -2410,6 +2422,12 @@
 		(uuid "83bcd25c-95c5-4b9d-9ed2-bb71bced5119")
 	)
 	(junction
+		(at 81.28 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88ec8ec4-24e6-4151-a2f8-57ad9c3d4f2b")
+	)
+	(junction
 		(at 41.91 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2432,6 +2450,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ead9dd9-0ca2-460d-bab3-fcddfa7d6c2a")
+	)
+	(junction
+		(at 52.07 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a50d76d5-8ef6-4fa3-806f-c9fe49b98760")
 	)
 	(junction
 		(at 91.44 52.07)
@@ -2482,7 +2506,7 @@
 		(uuid "fc991223-52e6-47e6-a527-fc2d15fe0ca5")
 	)
 	(no_connect
-		(at 76.2 171.45)
+		(at 80.01 171.45)
 		(uuid "5c8ddef6-7012-4564-9103-87508869efdb")
 	)
 	(wire
@@ -2667,6 +2691,26 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 173.99) (xy 62.23 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2841aec1-326d-493d-a58b-c00eef89b743")
+	)
+	(wire
+		(pts
+			(xy 52.07 173.99) (xy 52.07 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29b34877-f581-4673-8154-b9b50501b389")
+	)
+	(wire
+		(pts
 			(xy 137.16 172.72) (xy 138.43 172.72)
 		)
 		(stroke
@@ -2697,6 +2741,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 193.04) (xy 60.96 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "320d2723-4d8d-4323-bb93-8f5d8e210124")
+	)
+	(wire
+		(pts
 			(xy 85.09 62.23) (xy 95.25 62.23)
 		)
 		(stroke
@@ -2717,7 +2771,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 173.99) (xy 58.42 173.99)
+			(xy 36.83 173.99) (xy 52.07 173.99)
 		)
 		(stroke
 			(width 0)
@@ -2787,6 +2841,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 190.5) (xy 60.96 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47514591-40ff-4193-94f0-7c37df1e2b92")
+	)
+	(wire
+		(pts
 			(xy 132.08 52.07) (xy 132.08 59.69)
 		)
 		(stroke
@@ -2817,7 +2881,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 176.53) (xy 76.2 176.53)
+			(xy 81.28 176.53) (xy 80.01 176.53)
 		)
 		(stroke
 			(width 0)
@@ -2837,7 +2901,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 176.53) (xy 58.42 176.53)
+			(xy 39.37 176.53) (xy 60.96 176.53)
 		)
 		(stroke
 			(width 0)
@@ -2854,6 +2918,16 @@
 			(type default)
 		)
 		(uuid "55feb1c6-5e9d-4549-8fae-3850a9d2c527")
+	)
+	(wire
+		(pts
+			(xy 52.07 190.5) (xy 52.07 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56f3ec6f-5a4b-4430-af1e-d884e697ab1e")
 	)
 	(wire
 		(pts
@@ -2977,6 +3051,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 176.53) (xy 62.23 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75eb006d-91c9-4256-939d-a0602c9ce62f")
+	)
+	(wire
+		(pts
 			(xy 72.39 134.62) (xy 78.74 134.62)
 		)
 		(stroke
@@ -3027,7 +3111,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 173.99) (xy 87.63 173.99)
+			(xy 81.28 193.04) (xy 81.28 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c9f9c21-98d0-45c4-ac14-b981f1af3eb1")
+	)
+	(wire
+		(pts
+			(xy 80.01 173.99) (xy 87.63 173.99)
 		)
 		(stroke
 			(width 0)
@@ -3084,6 +3178,16 @@
 			(type default)
 		)
 		(uuid "861a0ae0-b2c2-4e03-8a4b-f964cbdd9e27")
+	)
+	(wire
+		(pts
+			(xy 60.96 176.53) (xy 60.96 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e5e6123-1823-44f0-9259-b7f9bcd695f5")
 	)
 	(wire
 		(pts
@@ -3424,6 +3528,16 @@
 			(type default)
 		)
 		(uuid "ed132013-838b-464b-9a8f-14b59ccd0a03")
+	)
+	(wire
+		(pts
+			(xy 60.96 193.04) (xy 81.28 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed1882b2-82fd-4acb-b969-86395c157576")
 	)
 	(wire
 		(pts
@@ -4060,7 +4174,7 @@
 	)
 	(symbol
 		(lib_id "EASYEDA:SHT40-CD1B-R3")
-		(at 67.31 176.53 0)
+		(at 71.12 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4069,7 +4183,7 @@
 		(fields_autoplaced yes)
 		(uuid "108ce02a-28f4-4714-85a8-4e3b52ef6e86")
 		(property "Reference" "U5"
-			(at 67.31 163.83 0)
+			(at 71.12 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4077,7 +4191,7 @@
 			)
 		)
 		(property "Value" "SHT40-CD1B-R3"
-			(at 67.31 166.37 0)
+			(at 71.12 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4085,7 +4199,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:DFN-4_L1.5-W1.5-P0.80-TL-EP"
-			(at 67.31 184.15 0)
+			(at 71.12 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4094,7 +4208,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 176.53 0)
+			(at 71.12 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4103,7 +4217,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 176.53 0)
+			(at 71.12 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4112,7 +4226,7 @@
 			)
 		)
 		(property "LCSC Part" "C7461852"
-			(at 67.31 186.69 0)
+			(at 71.12 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4376,6 +4490,85 @@
 			(project "nrfCoffee"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA:0603WAF5101T5E")
+		(at 52.07 185.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "228be1cc-9366-40d6-94fd-b06e77631203")
+		(property "Reference" "R12"
+			(at 54.61 184.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5k1"
+			(at 54.61 186.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 44.45 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_5-1KR-5101-1_C23186.html"
+			(at 41.91 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23186"
+			(at 39.37 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a4bbe65-4b28-4468-a689-6a18d8b5bd8e")
+		)
+		(pin "2"
+			(uuid "b4ee7e36-cb9a-4cda-b261-4cd4f02e2047")
+		)
+		(instances
+			(project "nrfCoffee"
+				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -4738,6 +4931,85 @@
 			(project "nrfCoffee"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA:0603WAF5101T5E")
+		(at 60.96 185.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "534ea071-a387-42e7-9659-16c3f4c911c7")
+		(property "Reference" "R13"
+			(at 63.5 184.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5k1"
+			(at 63.5 186.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 53.34 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_5-1KR-5101-1_C23186.html"
+			(at 50.8 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23186"
+			(at 48.26 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0150e29e-8c83-41b3-8fcd-430885aabe5d")
+		)
+		(pin "2"
+			(uuid "28deab89-b0a0-4da7-a20b-f6fdd6d3e916")
+		)
+		(instances
+			(project "nrfCoffee"
+				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
+					(reference "R13")
 					(unit 1)
 				)
 			)
