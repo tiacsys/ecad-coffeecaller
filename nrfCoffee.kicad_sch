@@ -4131,7 +4131,7 @@
 		)
 		(uuid c05fbfea-82b7-413c-a695-e498868a2768)
 	)
-	(text "nRF53840\nwith Decoupling"
+	(text "nRF52840\nwith Decoupling"
 		(exclude_from_sim no)
 		(at 193.802 20.574 0)
 		(effects
