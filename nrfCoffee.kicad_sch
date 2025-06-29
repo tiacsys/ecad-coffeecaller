@@ -4413,6 +4413,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 80.01) (xy 74.93 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e4eed6f-c5bf-486c-a29f-e01b37560e50")
+	)
+	(wire
+		(pts
 			(xy 140.97 80.01) (xy 144.78 80.01)
 		)
 		(stroke
@@ -4783,6 +4793,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 95.25) (xy 74.93 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "510133e1-c519-4765-8ef9-40fcf743786c")
+	)
+	(wire
+		(pts
 			(xy 175.26 102.87) (xy 171.45 102.87)
 		)
 		(stroke
@@ -4910,6 +4930,16 @@
 			(type default)
 		)
 		(uuid "5da7d96c-9390-4a55-bd41-877159966622")
+	)
+	(wire
+		(pts
+			(xy 68.58 44.45) (xy 74.93 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e2e934f-f47b-4ea9-b2c6-42365359fa85")
 	)
 	(wire
 		(pts
@@ -5473,6 +5503,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 87.63) (xy 74.93 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5ae7c0c-1247-4765-b6ba-01030d036d80")
+	)
+	(wire
+		(pts
 			(xy 68.58 100.33) (xy 74.93 100.33)
 		)
 		(stroke
@@ -5741,6 +5781,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Servo2"
+		(shape input)
+		(at 68.58 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07711ff9-6dc7-44f4-b523-97972081eae7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.1135 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6229,6 +6291,28 @@
 			)
 		)
 	)
+	(global_label "Servo3"
+		(shape input)
+		(at 68.58 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "65639576-3904-4970-8129-9cce3f03f516")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.1135 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "nRESET"
 		(shape input)
 		(at 125.73 160.02 0)
@@ -6603,6 +6687,28 @@
 			)
 		)
 	)
+	(global_label "Servo1"
+		(shape input)
+		(at 68.58 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df3e5197-31dd-4912-a201-2bfb0b282f09")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.1135 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+3V3"
 		(shape input)
 		(at 175.26 60.96 0)
@@ -6621,6 +6727,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Servo4"
+		(shape input)
+		(at 68.58 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e99b837d-b586-429c-bad8-c26057bc10ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.1135 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
