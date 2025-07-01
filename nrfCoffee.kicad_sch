@@ -1530,6 +1530,154 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "EASYEDA:IPEX-01"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RF"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "IPEX-01"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:IPEX-SMD_3P-L2.6-W2.6-LS3.0_YUANDI_RF-001"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C36936657"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IPEX-01_0_1"
+				(rectangle
+					(start -2.54 0)
+					(end 2.54 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.03) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.51)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 5.08 270)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "EASYEDA:LQP03TG2N2B02D"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4133,6 +4281,18 @@
 		)
 		(uuid c05fbfea-82b7-413c-a695-e498868a2768)
 	)
+	(rectangle
+		(start 151.13 132.08)
+		(end 208.28 163.83)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e8674ee1-9a6e-4191-9e62-a55d7a279f99)
+	)
 	(text "nRF52840\nwith Decoupling"
 		(exclude_from_sim no)
 		(at 193.802 20.574 0)
@@ -4180,6 +4340,18 @@
 			)
 		)
 		(uuid "9f8a9ce4-5499-475d-b4a5-3f99d3576524")
+	)
+	(text "NFC Connector"
+		(exclude_from_sim no)
+		(at 200.66 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "b4726e33-4464-408c-8d81-3294c93b3f24")
 	)
 	(text "SWD Debug"
 		(exclude_from_sim no)
@@ -4234,6 +4406,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "361ca526-a2c5-4843-9dfd-759b6fc6ae5f")
+	)
+	(junction
+		(at 168.91 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65e791e8-e16c-40f4-9233-62b57d9d42dc")
 	)
 	(junction
 		(at 107.95 185.42)
@@ -4855,6 +5033,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 160.02) (xy 168.91 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "524c798c-730a-48c1-bb5a-7d53a90823e0")
+	)
+	(wire
+		(pts
 			(xy 175.26 102.87) (xy 171.45 102.87)
 		)
 		(stroke
@@ -5135,6 +5323,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 137.16) (xy 179.07 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e108adc-a49b-4147-ab20-b19c61c5162e")
+	)
+	(wire
+		(pts
 			(xy 135.89 177.8) (xy 129.54 177.8)
 		)
 		(stroke
@@ -5182,6 +5380,16 @@
 			(type default)
 		)
 		(uuid "86698820-0ffa-44a3-af7b-72160690b20c")
+	)
+	(wire
+		(pts
+			(xy 168.91 149.86) (xy 171.45 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "867ba5b5-5e33-4d9c-af47-10d0516dfb8d")
 	)
 	(wire
 		(pts
@@ -5402,6 +5610,16 @@
 			(type default)
 		)
 		(uuid "a763cfd3-0d8a-4b9d-9f46-7c8af51cde04")
+	)
+	(wire
+		(pts
+			(xy 186.69 160.02) (xy 168.91 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa64a953-e13e-417b-a4ff-1c8f5945b106")
 	)
 	(wire
 		(pts
@@ -5665,6 +5883,26 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 149.86) (xy 186.69 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d66fd176-cf2f-4de9-9bd7-c1dcd7365a6a")
+	)
+	(wire
+		(pts
+			(xy 68.58 110.49) (xy 74.93 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6e42128-4b11-4fff-9303-f9ae4a4d431b")
+	)
+	(wire
+		(pts
 			(xy 26.67 52.07) (xy 34.29 52.07)
 		)
 		(stroke
@@ -5735,6 +5973,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 137.16) (xy 179.07 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e42d8430-c26f-4cae-8285-450f86c32a13")
+	)
+	(wire
+		(pts
 			(xy 140.97 54.61) (xy 149.86 54.61)
 		)
 		(stroke
@@ -5772,6 +6020,16 @@
 			(type default)
 		)
 		(uuid "ed74266e-b902-4710-a859-680c5bf996a1")
+	)
+	(wire
+		(pts
+			(xy 68.58 118.11) (xy 74.93 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edd7364d-4623-4ac8-9a4f-377d69cd5870")
 	)
 	(wire
 		(pts
@@ -5852,6 +6110,16 @@
 			(type default)
 		)
 		(uuid "f8972608-fb7e-4c15-88a3-8021296696cb")
+	)
+	(wire
+		(pts
+			(xy 165.1 149.86) (xy 168.91 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8d40169-b651-46e4-9012-1f56a502015e")
 	)
 	(wire
 		(pts
@@ -6125,6 +6393,28 @@
 			)
 		)
 	)
+	(global_label "NFC1"
+		(shape input)
+		(at 68.58 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "30ec6958-c894-4555-b358-3c144c463cc0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.4051 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SWDIO"
 		(shape input)
 		(at 130.81 146.05 0)
@@ -6257,6 +6547,28 @@
 			)
 		)
 	)
+	(global_label "NFC2"
+		(shape input)
+		(at 165.1 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b83af77-7e92-49e7-852d-d74b9f08cfe3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.9251 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LD1"
 		(shape input)
 		(at 149.86 118.11 0)
@@ -6363,6 +6675,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NFC1"
+		(shape input)
+		(at 165.1 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c53faa7-4e6d-4a65-aaa4-f64f34a53bf5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.9251 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7313,6 +7647,28 @@
 			)
 		)
 	)
+	(global_label "NFC2"
+		(shape input)
+		(at 68.58 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f92a9b58-9236-449f-b58c-ce2489333ad1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.4051 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SW4"
 		(shape input)
 		(at 68.58 41.91 180)
@@ -7354,6 +7710,86 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA:IPEX-01")
+		(at 179.07 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "087951d4-e39a-4555-9f51-f3de495f1e18")
+		(property "Reference" "RF1"
+			(at 179.07 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IPEX-01"
+			(at 179.07 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:IPEX-SMD_3P-L2.6-W2.6-LS3.0_YUANDI_RF-001"
+			(at 179.07 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C36936657"
+			(at 179.07 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e252e581-19e2-4cb8-b6a5-497a71ebf9e1")
+		)
+		(pin "1"
+			(uuid "a0807f33-fe13-4293-955e-d56d7dcfe51f")
+		)
+		(pin "2"
+			(uuid "80ac383a-e4e8-4d4e-8f9b-e72146826b25")
+		)
+		(instances
+			(project ""
+				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173"
+					(reference "RF1")
+					(unit 1)
+				)
 			)
 		)
 	)
