@@ -1,4 +1,4 @@
-269022792474462
+279528909655266
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -103530,6 +103530,13 @@ CASE-C_6032
 2
 2
 easyeda2kicad
+CONN-SMD_3P-P1.25_SHOU_1.25-3PLTDK
+
+
+0
+5
+5
+easyeda2kicad
 CONN-SMD_4P-P1.00_SM04B-SRSS-TB-LF-SN
 
 
@@ -103543,6 +103550,13 @@ CONN-SMD_10P-P1.27_XFCN_PZ127VS-12-10-H10-A38
 0
 10
 10
+easyeda2kicad
+CONN-SMD_AS0BC21-S40BM-7H
+
+
+0
+71
+69
 easyeda2kicad
 CRYSTAL-SMD_4P-L2.0-W1.6-BL
 
@@ -103565,12 +103579,40 @@ DFN-4_L1.5-W1.5-P0.80-TL-EP
 5
 5
 easyeda2kicad
+HDR-SMD_12P-P2.54-V-M-R2-C6-S7.4
+
+
+0
+12
+12
+easyeda2kicad
+HDR-SMD_16P-P2.54-V-F-R2-C8-LS7.1
+
+
+0
+16
+16
+easyeda2kicad
+HDR-TH_12P-P2.54-V-M-R3-C4-S2.54
+
+
+0
+12
+12
+easyeda2kicad
 IDC-SMD_10P-P1.27-3220-10-0300-00
 
 
 0
 10
 10
+easyeda2kicad
+IPEX-SMD_3P-L2.6-W2.6-LS3.0_YUANDI_RF-001
+
+
+0
+3
+3
 easyeda2kicad
 KEY-SMD_4P-L12.0-W12.0-P5.00-LS15.1
 
