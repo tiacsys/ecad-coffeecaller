@@ -260,28 +260,28 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EASYEDA:2450AT43A100E"
+		(symbol "EASYEDA:ANT3216LL00R2400A"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 10.16 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "2450AT43A100E"
-				(at 0 -10.16 0)
+			(property "Value" "ANT3216LL00R2400A"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:ANT-SMD_L7.0-W2.0-R"
-				(at 0 -12.7 0)
+			(property "Footprint" "easyeda2kicad:ANT-SMD_L3.2-W1.6"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -289,8 +289,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://lcsc.com/product-detail/Others_YAGEO-ANT3216LL00R2400A_C293767.html"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -307,8 +307,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C2917720"
-				(at 0 -15.24 0)
+			(property "LCSC Part" "C293767"
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -316,47 +316,21 @@
 					(hide yes)
 				)
 			)
-			(symbol "2450AT43A100E_0_1"
-				(polyline
-					(pts
-						(xy 0 1.27) (xy -2.54 3.81)
-					)
+			(symbol "ANT3216LL00R2400A_0_1"
+				(rectangle
+					(start -10.16 2.54)
+					(end 7.62 -2.54)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 3.81) (xy 0 1.27)
-					)
+				(circle
+					(center -9.65 2.03)
+					(radius 0.38)
 					(stroke
 						(width 0)
 						(type default)
@@ -366,7 +340,25 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 5.08 270)
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 0 180)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -376,24 +368,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "ANT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4645,7 +4619,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 189.23) (xy 43.18 191.77)
+			(xy 43.18 190.5) (xy 43.18 191.77)
 		)
 		(stroke
 			(width 0)
@@ -5425,6 +5399,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 177.8) (xy 64.77 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86504b11-7a8e-4ebf-b9ab-63bb4d4f3c2c")
+	)
+	(wire
+		(pts
 			(xy 190.5 87.63) (xy 195.58 87.63)
 		)
 		(stroke
@@ -6045,7 +6029,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 184.15) (xy 19.05 191.77)
+			(xy 19.05 175.26) (xy 19.05 191.77)
 		)
 		(stroke
 			(width 0)
@@ -6075,6 +6059,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 180.34) (xy 43.18 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e64b6d0e-ba82-4ee1-8d7f-a64b55b5e641")
+	)
+	(wire
+		(pts
 			(xy 140.97 54.61) (xy 149.86 54.61)
 		)
 		(stroke
@@ -6092,16 +6086,6 @@
 			(type default)
 		)
 		(uuid "e8c463ae-61ca-415b-add8-0ddd80738eea")
-	)
-	(wire
-		(pts
-			(xy 43.18 176.53) (xy 43.18 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb7527df-19a4-46c4-b1e2-6589612379ad")
 	)
 	(wire
 		(pts
@@ -8464,85 +8448,6 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA:2450AT43A100E")
-		(at 19.05 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "320f316e-228c-462e-81f4-d451d0679a5a")
-		(property "Reference" "U2"
-			(at 22.86 176.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2450AT43A100E"
-			(at 22.86 179.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:ANT-SMD_L7.0-W2.0-R"
-			(at 19.05 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 19.05 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 19.05 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C2917720"
-			(at 19.05 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3cbb33eb-6fe4-45bb-a4d8-c468e3b2c50e")
-		)
-		(pin "1"
-			(uuid "918455a2-e8d0-45f3-b65b-b0b51f650ffd")
-		)
-		(instances
-			(project ""
-				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 149.86 34.29 90)
 		(unit 1)
@@ -8998,7 +8903,7 @@
 	)
 	(symbol
 		(lib_id "EASYEDA:GRM0335C1H1R2BA01D")
-		(at 43.18 184.15 90)
+		(at 43.18 185.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9007,7 +8912,7 @@
 		(fields_autoplaced yes)
 		(uuid "515b56e0-bdec-4206-a754-f70b1587fc57")
 		(property "Reference" "C2"
-			(at 46.99 182.8799 90)
+			(at 46.99 184.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9016,7 +8921,7 @@
 			)
 		)
 		(property "Value" "1.2pF"
-			(at 46.99 185.4199 90)
+			(at 46.99 186.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9025,7 +8930,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:C0201"
-			(at 50.8 184.15 0)
+			(at 50.8 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9034,7 +8939,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_muRata_GRM0335C1H1R2BA01D_1-2pF-1R2-0-1pF-50V_C85895.html"
-			(at 53.34 184.15 0)
+			(at 53.34 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9043,7 +8948,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.18 184.15 0)
+			(at 43.18 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9052,7 +8957,7 @@
 			)
 		)
 		(property "LCSC Part" "C85895"
-			(at 55.88 184.15 0)
+			(at 55.88 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9519,72 +9424,6 @@
 			(project "nrfCoffee"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 43.18 176.53 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6af7a2a0-f978-4906-b305-706ef3d5ebf9")
-		(property "Reference" "#PWR01"
-			(at 43.18 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 43.18 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ecf5734-5cec-490f-803d-4287b2a5b212")
-		)
-		(instances
-			(project ""
-				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -10836,6 +10675,83 @@
 			(project "nrfCoffee"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EASYEDA:ANT3216LL00R2400A")
+		(at 31.75 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e32a9b1a-51bc-4b81-92a7-361f49ffdd32")
+		(property "Reference" "U6"
+			(at 30.48 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ANT3216LL00R2400A"
+			(at 30.48 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:ANT-SMD_L3.2-W1.6"
+			(at 31.75 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_YAGEO-ANT3216LL00R2400A_C293767.html"
+			(at 31.75 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C293767"
+			(at 31.75 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bf64cc75-56ef-4f3f-be9f-891430e35dc7")
+		)
+		(pin "1"
+			(uuid "3a9723a2-e7cd-4be9-97f3-10a74ae0cf9c")
+		)
+		(instances
+			(project ""
+				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173"
+					(reference "U6")
 					(unit 1)
 				)
 			)
