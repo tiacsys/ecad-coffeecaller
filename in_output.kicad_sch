@@ -498,6 +498,196 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "EASYEDA:1.0-4PWT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1.0-4PWT"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:CONN-SMD_1.0-4PWT"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C2763614"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1.0-4PWT_0_1"
+				(rectangle
+					(start -2.54 6.35)
+					(end 5.08 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.27 5.08)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 8.89 270)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 -8.89 90)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "EASYEDA:2N7002"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1800,185 +1990,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EASYEDA:SM04B-SRSS-TB(LF)(SN)"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CN"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SM04B-SRSS-TB (LF)(SN)"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:CONN-SMD_4P-P1.00_SM04B-SRSS-TB-LF-SN"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Others_JST-Sales-America__JST-Sales-America-SM04B-SRSS-TB-LF-SN_C160404.html"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C160404"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SM04B-SRSS-TB(LF)(SN)_0_1"
-				(rectangle
-					(start -11.43 1.27)
-					(end 11.43 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 3.81 270)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -3.81 3.81 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -1.27 3.81 270)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 1.27 3.81 270)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 3.81 3.81 270)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 8.89 3.81 270)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "EASYEDA:SS210"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2740,6 +2751,12 @@
 		(uuid "5bf7bb4b-96ca-41e9-bcb1-50bcfb322194")
 	)
 	(junction
+		(at 39.37 176.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67d8761a-ea1e-4069-81fe-832bf6bcb78e")
+	)
+	(junction
 		(at 60.96 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2810,12 +2827,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad2d1a6b-c2f2-4e1b-88e5-8e326078f639")
-	)
-	(junction
-		(at 39.37 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aeda9112-1c3b-49b4-aebc-2148e527934d")
 	)
 	(junction
 		(at 146.05 184.15)
@@ -2992,16 +3003,6 @@
 			(type default)
 		)
 		(uuid "10994674-60c8-4723-9c64-232aae90c3a3")
-	)
-	(wire
-		(pts
-			(xy 31.75 154.94) (xy 31.75 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11657c34-267a-4e3c-9be9-f162d3110353")
 	)
 	(wire
 		(pts
@@ -3205,6 +3206,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 170.18) (xy 34.29 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f6cc9ba-a66b-4723-98a3-cd0450fbacfb")
+	)
+	(wire
+		(pts
 			(xy 124.46 116.84) (xy 130.81 116.84)
 		)
 		(stroke
@@ -3355,6 +3366,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 154.94) (xy 44.45 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59e72a18-5b94-4358-938c-2dc1f4faca14")
+	)
+	(wire
+		(pts
 			(xy 138.43 153.67) (xy 146.05 153.67)
 		)
 		(stroke
@@ -3422,16 +3443,6 @@
 			(type default)
 		)
 		(uuid "6ed89cef-2322-4836-aa91-623271089aae")
-	)
-	(wire
-		(pts
-			(xy 26.67 154.94) (xy 26.67 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7156e0c3-fa38-4917-a53f-8eec7e540e8f")
 	)
 	(wire
 		(pts
@@ -3615,16 +3626,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 173.99) (xy 36.83 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81235a26-996c-4d8d-a72f-16e4c5ff81d2")
-	)
-	(wire
-		(pts
 			(xy 237.49 118.11) (xy 245.11 118.11)
 		)
 		(stroke
@@ -3715,6 +3716,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 154.94) (xy 26.67 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97a76e17-1ee7-47a0-9bcf-2a95706c04fe")
+	)
+	(wire
+		(pts
 			(xy 257.81 113.03) (xy 264.16 113.03)
 		)
 		(stroke
@@ -3775,16 +3786,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 176.53) (xy 39.37 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9229302-dc06-479d-b38d-0656a1e4802c")
-	)
-	(wire
-		(pts
 			(xy 257.81 110.49) (xy 264.16 110.49)
 		)
 		(stroke
@@ -3802,6 +3803,16 @@
 			(type default)
 		)
 		(uuid "aec4e630-c290-45a6-b15c-734d2f16ab76")
+	)
+	(wire
+		(pts
+			(xy 39.37 176.53) (xy 39.37 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afc1a06c-4de1-4420-b11a-fcf5eff46f6d")
 	)
 	(wire
 		(pts
@@ -3835,13 +3846,13 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 177.8) (xy 44.45 154.94)
+			(xy 31.75 154.94) (xy 31.75 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc427e49-e5ac-4531-a12d-1884635a3a1c")
+		(uuid "bc67a8e3-227e-43a2-9f48-51b20ed13621")
 	)
 	(wire
 		(pts
@@ -4145,6 +4156,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 173.99) (xy 36.83 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc7b38e6-a58b-4956-a05e-398aff4719d1")
+	)
+	(wire
+		(pts
 			(xy 140.97 63.5) (xy 144.78 63.5)
 		)
 		(stroke
@@ -4152,16 +4173,6 @@
 			(type default)
 		)
 		(uuid "fd0e06d3-81f7-4395-bb2c-5486f8ac5403")
-	)
-	(wire
-		(pts
-			(xy 34.29 170.18) (xy 34.29 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe39e022-065f-424b-bbc9-2e9a24316afc")
 	)
 	(wire
 		(pts
@@ -6135,7 +6146,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812E"
+		(property "Value" "WS2812E-V5"
 			(at 50.8 55.88 0)
 			(effects
 				(font
@@ -6351,7 +6362,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812E"
+		(property "Value" "WS2812E-V5"
 			(at 132.08 55.88 0)
 			(effects
 				(font
@@ -7384,7 +7395,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812E"
+		(property "Value" "WS2812E-V5"
 			(at 171.45 55.88 0)
 			(effects
 				(font
@@ -7888,17 +7899,17 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA:SM04B-SRSS-TB(LF)(SN)")
-		(at 35.56 181.61 0)
+		(lib_id "EASYEDA:1.0-4PWT")
+		(at 35.56 182.88 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ac1323da-f48c-452e-b5bc-5a101e682ba8")
 		(property "Reference" "CN1"
-			(at 35.56 187.96 0)
+			(at 35.56 190.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7906,15 +7917,15 @@
 			)
 		)
 		(property "Value" "SM04B-SRSS-TB (LF)(SN)"
-			(at 35.56 190.5 0)
+			(at 35.56 193.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CONN-SMD_4P-P1.00_SM04B-SRSS-TB-LF-SN"
-			(at 35.56 185.42 0)
+		(property "Footprint" "easyeda2kicad:CONN-SMD_1.0-4PWT"
+			(at 52.07 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7923,7 +7934,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Others_JST-Sales-America__JST-Sales-America-SM04B-SRSS-TB-LF-SN_C160404.html"
-			(at 35.56 187.96 0)
+			(at 35.56 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7932,7 +7943,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 181.61 0)
+			(at 35.56 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7940,8 +7951,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C160404"
-			(at 35.56 190.5 0)
+		(property "LCSC Part" "C2763614"
+			(at 54.61 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8216,7 +8227,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812E"
+		(property "Value" "WS2812E-V5"
 			(at 91.44 55.88 0)
 			(effects
 				(font
