@@ -4744,7 +4744,7 @@
 			(uuid "b6daf977-c049-4d51-bc38-844325c2fc90")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "C11")
 					(unit 1)
@@ -4907,7 +4907,7 @@
 			(uuid "7ad2249d-3b20-415d-8e0c-e8cd4e32b901")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "SW3")
 					(unit 1)
@@ -4990,7 +4990,7 @@
 			(uuid "e43b358f-1c4f-4af8-9609-2824e3377653")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "KEY1")
 					(unit 1)
@@ -5079,7 +5079,7 @@
 			(uuid "1e33090f-e0be-4bb7-8cb4-7fbd9acf4532")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "HDR2")
 					(unit 1)
@@ -5156,7 +5156,7 @@
 			(uuid "e6877653-6b92-4364-b198-1194bdc81607")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "R8")
 					(unit 1)
@@ -5235,7 +5235,7 @@
 			(uuid "b4ee7e36-cb9a-4cda-b261-4cd4f02e2047")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "R12")
 					(unit 1)
@@ -5312,7 +5312,7 @@
 			(uuid "35e7801e-7f93-45e0-9d57-67f65338a5ec")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "R15")
 					(unit 1)
@@ -5397,7 +5397,7 @@
 			(uuid "45f82b9a-c7f5-4ca3-ad03-8a1b5f6132c8")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "U3")
 					(unit 1)
@@ -5463,7 +5463,7 @@
 			(uuid "f67bc271-aa78-4195-adae-cdf74af4c2b1")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "#PWR021")
 					(unit 1)
@@ -5529,7 +5529,7 @@
 			(uuid "a39fb47b-992d-47be-aa01-eb04b9dd3c6e")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "#PWR022")
 					(unit 1)
@@ -5595,7 +5595,7 @@
 			(uuid "25eb98b9-604a-4427-b47e-0079d455c1c9")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "#PWR023")
 					(unit 1)
@@ -5674,7 +5674,7 @@
 			(uuid "61435170-911e-4959-bf94-b4dddf7d213e")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "R10")
 					(unit 1)
@@ -5753,7 +5753,7 @@
 			(uuid "28deab89-b0a0-4da7-a20b-f6fdd6d3e916")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "R13")
 					(unit 1)
@@ -5820,7 +5820,7 @@
 			(uuid "9fef59bc-1405-486c-9c91-c4a901ba66df")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "#PWR09")
 					(unit 1)
@@ -5887,7 +5887,7 @@
 			(uuid "3bce6095-a2e3-436c-83f7-06164744000d")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "#PWR043")
 					(unit 1)
@@ -5970,7 +5970,7 @@
 			(uuid "01f1f99b-d4e7-4de6-a5bc-9e7f55da127e")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "D4")
 					(unit 1)
@@ -6125,7 +6125,7 @@
 			(uuid "b0dc7da1-b829-4dbc-b5ca-6e73edee7d1d")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "#PWR025")
 					(unit 1)
@@ -6192,7 +6192,7 @@
 			(uuid "a9303923-b407-40a4-b67a-f609d8b9daa5")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "#PWR029")
 					(unit 1)
@@ -6275,7 +6275,7 @@
 			(uuid "6f2f2cfe-7125-44ea-b959-959da29f1c0f")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "D2")
 					(unit 1)
@@ -6341,7 +6341,7 @@
 			(uuid "e3a4b03e-6093-4c02-a969-dc9a0c7f5a16")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "#PWR026")
 					(unit 1)
@@ -6418,7 +6418,7 @@
 			(uuid "bd1bb72a-2dfc-413c-91a8-b5ce8c2dd67e")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "SW4")
 					(unit 1)
@@ -6485,7 +6485,7 @@
 			(uuid "4b225b2f-6ec9-42b1-b4af-50265f818bc9")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "#PWR040")
 					(unit 1)
@@ -6562,7 +6562,7 @@
 			(uuid "4010bf41-edd7-4825-b1bc-b68e7b8edebd")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "R4")
 					(unit 1)
@@ -6639,7 +6639,7 @@
 			(uuid "4b330944-bd54-4cae-b204-7081000bd3f7")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "R14")
 					(unit 1)
@@ -6705,7 +6705,7 @@
 			(uuid "c728baa9-29ce-4e07-9ddd-0b9ae08cd6c8")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "#PWR027")
 					(unit 1)
@@ -6782,7 +6782,7 @@
 			(uuid "3ed49ef5-84b1-4868-b6a3-4a3ab2fe0482")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "R7")
 					(unit 1)
@@ -6859,7 +6859,7 @@
 			(uuid "05b1b0b2-563b-40c6-bc90-123e2fbaf4cc")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "R5")
 					(unit 1)
@@ -7013,7 +7013,7 @@
 			(uuid "51fc45e6-d5d1-40ce-8851-f36b3a433b26")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "SW2")
 					(unit 1)
@@ -7079,7 +7079,7 @@
 			(uuid "5b44d9ff-0713-40d5-aa2d-6e8f12916468")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "#PWR038")
 					(unit 1)
@@ -7158,7 +7158,7 @@
 			(uuid "848b6731-9b72-4c26-8b7e-757bb456a7dc")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "C10")
 					(unit 1)
@@ -7308,7 +7308,7 @@
 			(uuid "2a29504a-a8da-4919-8d20-0157d548bfd6")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "#PWR039")
 					(unit 1)
@@ -7387,7 +7387,7 @@
 			(uuid "3e2f85fe-a721-4a6e-963c-989f9a2aca3d")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "C12")
 					(unit 1)
@@ -7469,7 +7469,7 @@
 			(uuid "9bed6134-723d-4f4e-9a1d-a28e40c670f8")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "Q2")
 					(unit 1)
@@ -7546,7 +7546,7 @@
 			(uuid "7c6180df-47c8-4dcf-b904-91fac5bc71be")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "LD2")
 					(unit 1)
@@ -7612,7 +7612,7 @@
 			(uuid "de215379-5a56-4cef-a03a-be47e5c10555")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "#PWR028")
 					(unit 1)
@@ -7857,7 +7857,7 @@
 			(uuid "4771e316-66ea-4d5a-8e17-d22495b98c90")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "C9")
 					(unit 1)
@@ -7923,7 +7923,7 @@
 			(uuid "130ea3c0-00ca-4500-be81-9d4b88205548")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "#PWR042")
 					(unit 1)
@@ -8006,7 +8006,7 @@
 			(uuid "4534d8dc-f9dc-4632-8975-ee312a435ad9")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "D3")
 					(unit 1)
@@ -8242,7 +8242,7 @@
 			(uuid "480ee3c3-9c48-47fb-96c7-5a6e8f5cfabb")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "LD3")
 					(unit 1)
@@ -8397,7 +8397,7 @@
 			(uuid "83404a83-c782-498c-bbde-c7cba59b2a71")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "LD4")
 					(unit 1)
@@ -8464,7 +8464,7 @@
 			(uuid "c66bd4d4-9677-4c6a-a1ac-03655a990f7c")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "#PWR034")
 					(unit 1)
@@ -8543,7 +8543,7 @@
 			(uuid "fb1fb556-64ce-4b45-8668-f956f6fdbb4a")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "C15")
 					(unit 1)
@@ -8610,7 +8610,7 @@
 			(uuid "14cf676f-6663-41b5-b2ae-72154f9107e1")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "#PWR031")
 					(unit 1)
@@ -8687,7 +8687,7 @@
 			(uuid "b0ea0599-802b-4654-9932-4ac05743b87b")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "R6")
 					(unit 1)
@@ -8753,7 +8753,7 @@
 			(uuid "9264ec39-e488-4d12-a7e3-8ad7ae5e4fc4")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "#PWR024")
 					(unit 1)
@@ -8819,7 +8819,7 @@
 			(uuid "79235b6f-5555-4e57-a211-6f37e5d24055")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "#PWR045")
 					(unit 1)
