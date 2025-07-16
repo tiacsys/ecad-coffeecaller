@@ -6,7 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "CoffeeCaller nRF52840")
-		(date "2025-05-03")
+		(date "2025-07-17")
+		(comment 1 "SPDX-FileCopyrightText: 2025 Andreas Kurz <info@akurz.net>")
+		(comment 2 "SPDX-License-Identifier: CERN-OHL-S-2.0+")
 	)
 	(lib_symbols
 		(symbol "EASYEDA:0603B103K500NT"
