@@ -260,113 +260,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EASYEDA:0603WAF8200T5E"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "0603WAF8200T5E"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:R0603"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_820R-8200-1_C23253.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C23253"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0603WAF8200T5E_0_1"
-				(rectangle
-					(start -2.54 1.02)
-					(end 2.54 -1.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "EASYEDA:0603Whitelight_C2290"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1945,9 +1838,29 @@
 					)
 				)
 				(pin unspecified line
+					(at 10.16 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "XC6206P332MR_1_1"
+				(pin unspecified line
 					(at -10.16 0 0)
 					(length 5.08)
-					(name "Vin"
+					(name "Vout"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1965,7 +1878,7 @@
 				(pin unspecified line
 					(at 10.16 5.08 180)
 					(length 5.08)
-					(name "Vout"
+					(name "Vin"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1973,24 +1886,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 -5.08 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2212,16 +2107,16 @@
 		(uuid "d2d8f1b1-1d61-497f-94c7-7244ef58e6f7")
 	)
 	(junction
+		(at 196.85 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bfb9ed8-b087-4927-86d1-680463d84631")
+	)
+	(junction
 		(at 151.13 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c440440-fa29-49af-950a-d89d5f42cb4a")
-	)
-	(junction
-		(at 240.03 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2d343266-cc15-4e1c-adc7-90535fdbfdba")
 	)
 	(junction
 		(at 90.17 124.46)
@@ -2236,12 +2131,6 @@
 		(uuid "3b6220b3-d33f-4a93-a4ab-a0331edc3d45")
 	)
 	(junction
-		(at 196.85 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "57b46ce7-9029-4a90-984b-de0c49a993de")
-	)
-	(junction
 		(at 251.46 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2251,7 +2140,13 @@
 		(at 240.03 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "86e1bf64-493f-4634-8970-5c8f604bdb4f")
+		(uuid "7bc9a300-c065-4278-9bb0-4359218b2f73")
+	)
+	(junction
+		(at 196.85 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8841b820-8182-4df8-a1c9-a5cfc5f7aacc")
 	)
 	(junction
 		(at 251.46 36.83)
@@ -2419,7 +2314,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 27.94) (xy 196.85 30.48)
+			(xy 196.85 27.94) (xy 196.85 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2499,6 +2394,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 31.75) (xy 208.28 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c620ae1-8c12-43f7-96c1-6a16bedc7ec0")
+	)
+	(wire
+		(pts
 			(xy 76.2 66.04) (xy 78.74 66.04)
 		)
 		(stroke
@@ -2549,6 +2454,26 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 36.83) (xy 240.03 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d7ddf13-b0a0-40d2-8a35-53bb25097beb")
+	)
+	(wire
+		(pts
+			(xy 204.47 29.21) (xy 196.85 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "758ba825-e5c1-4917-95b4-afb6a67bcbb8")
+	)
+	(wire
+		(pts
 			(xy 151.13 43.18) (xy 151.13 48.26)
 		)
 		(stroke
@@ -2569,13 +2494,13 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 46.99) (xy 240.03 46.99)
+			(xy 196.85 41.91) (xy 208.28 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8f2c7fd2-3bd2-4330-bc48-c0c5444af57a")
+		(uuid "82653915-b36c-4649-8f29-e3c1c9a1cb3b")
 	)
 	(wire
 		(pts
@@ -2586,6 +2511,16 @@
 			(type default)
 		)
 		(uuid "987fc662-9ca4-4f5c-bc3b-9d243f7728c1")
+	)
+	(wire
+		(pts
+			(xy 204.47 31.75) (xy 204.47 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99febf41-35d1-41fc-abca-f9ce60e55c39")
 	)
 	(wire
 		(pts
@@ -2749,13 +2684,13 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 41.91) (xy 208.28 41.91)
+			(xy 196.85 29.21) (xy 196.85 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ca46447b-4f87-4496-949b-11156e8673f9")
+		(uuid "cb6e9992-ef28-4e2b-94c9-2eeba0c133af")
 	)
 	(wire
 		(pts
@@ -2836,16 +2771,6 @@
 			(type default)
 		)
 		(uuid "d9e99add-cd75-41d4-82ad-52269b779ac7")
-	)
-	(wire
-		(pts
-			(xy 228.6 36.83) (xy 240.03 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e292b936-631a-4954-8697-f13d923f6ad5")
 	)
 	(wire
 		(pts
@@ -3345,7 +3270,7 @@
 			(uuid "c0022577-5d40-485c-ba9e-07d8526c5f34")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
 					(reference "#PWR05")
 					(unit 1)
@@ -3422,7 +3347,7 @@
 			(uuid "cfc8da24-89ad-4308-8e4f-f88bd22c6f59")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
 					(reference "C19")
 					(unit 1)
@@ -3488,7 +3413,7 @@
 			(uuid "aa32ac7e-1d9b-49d6-90ea-9644387a185e")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
 					(reference "#PWR046")
 					(unit 1)
@@ -3565,7 +3490,7 @@
 			(uuid "d35a7a6f-cf4d-4dd3-b5be-27e78b0652d7")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
 					(reference "C14")
 					(unit 1)
@@ -3631,7 +3556,7 @@
 			(uuid "2c30e977-cdfd-44d7-8f6d-e0f2a3098764")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
 					(reference "#PWR03")
 					(unit 1)
@@ -3708,7 +3633,7 @@
 			(uuid "f503adfa-32ce-492f-a5fc-b835a58af164")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
 					(reference "R2")
 					(unit 1)
@@ -3774,7 +3699,7 @@
 			(uuid "413bf983-83b9-4e9e-8b06-cd8dd2c21e25")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
 					(reference "#PWR030")
 					(unit 1)
@@ -3887,7 +3812,7 @@
 			(uuid "4a8afc1e-1451-4279-84fe-be591e7a3826")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
 					(reference "USBC1")
 					(unit 1)
@@ -3965,7 +3890,7 @@
 			(uuid "ec6532cf-3c90-478f-8aa7-8484b5f88f33")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
 					(reference "LD5")
 					(unit 1)
@@ -4031,7 +3956,7 @@
 			(uuid "f48d23bf-64a7-4226-8efa-8d1792dfa2ef")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
 					(reference "#PWR019")
 					(unit 1)
@@ -4108,7 +4033,7 @@
 			(uuid "2f60b169-325e-46cb-8bf2-781c4176d770")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
 					(reference "L3")
 					(unit 1)
@@ -4185,7 +4110,7 @@
 			(uuid "3c969217-fc7e-432b-84e2-2d4133b433b0")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
 					(reference "R1")
 					(unit 1)
@@ -4195,7 +4120,7 @@
 	)
 	(symbol
 		(lib_id "EASYEDA:XC6206P332MR")
-		(at 218.44 41.91 0)
+		(at 218.44 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4204,7 +4129,7 @@
 		(fields_autoplaced yes)
 		(uuid "9700b568-2109-4e7c-9734-f9c9b4691c73")
 		(property "Reference" "U4"
-			(at 218.44 29.21 0)
+			(at 218.44 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4212,7 +4137,7 @@
 			)
 		)
 		(property "Value" "XC6206P332MR"
-			(at 218.44 31.75 0)
+			(at 218.44 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4220,7 +4145,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
-			(at 218.44 54.61 0)
+			(at 218.44 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4229,7 +4154,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Low-Dropout-Regulators-LDO_XC6206P332MR_C5446.html"
-			(at 218.44 57.15 0)
+			(at 218.44 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4238,7 +4163,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 218.44 41.91 0)
+			(at 218.44 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4247,7 +4172,7 @@
 			)
 		)
 		(property "LCSC Part" "C5446"
-			(at 218.44 59.69 0)
+			(at 218.44 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4344,7 +4269,7 @@
 			(uuid "70ce503a-c286-4b38-97c8-15dad0837211")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
 					(reference "C5")
 					(unit 1)
@@ -4410,7 +4335,7 @@
 			(uuid "c87fef85-c8d3-4306-873f-59b70d43c1f6")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
 					(reference "#PWR017")
 					(unit 1)
@@ -4489,7 +4414,7 @@
 			(uuid "51881333-90d0-4a5c-be93-d0f155601b8d")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
 					(reference "C7")
 					(unit 1)
@@ -4555,7 +4480,7 @@
 			(uuid "36456910-5dd2-46f0-b293-abed08d91037")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
 					(reference "#PWR018")
 					(unit 1)
@@ -4637,7 +4562,7 @@
 			(uuid "742f7625-0f67-4393-9e1b-c2d17fb763f2")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
 					(reference "D0")
 					(unit 1)
@@ -4716,7 +4641,7 @@
 			(uuid "1327ec7d-40a0-405a-b454-63e5ad3aaf93")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
 					(reference "C6")
 					(unit 1)
@@ -4725,7 +4650,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA:0603WAF8200T5E")
+		(lib_id "EASYEDA:0603WAF5101T5E")
 		(at 259.08 52.07 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4743,7 +4668,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "820R"
+		(property "Value" "5k1"
 			(at 261.62 53.3399 90)
 			(effects
 				(font
@@ -4761,7 +4686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_820R-8200-1_C23253.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_5-1KR-5101-1_C23186.html"
 			(at 248.92 52.07 0)
 			(effects
 				(font
@@ -4779,7 +4704,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C23253"
+		(property "LCSC Part" "C23186"
 			(at 246.38 52.07 0)
 			(effects
 				(font
@@ -4795,7 +4720,7 @@
 			(uuid "b46b69b9-f547-4ed6-92ce-57043f1f8862")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
 					(reference "R9")
 					(unit 1)
@@ -4871,7 +4796,7 @@
 			(uuid "4d2b1d00-0256-4e72-9b9c-a84e9c176706")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
 					(reference "C13")
 					(unit 1)
@@ -4938,7 +4863,7 @@
 			(uuid "e65ff25a-b476-4a3a-9296-fcb02a76c5c7")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
 					(reference "#PWR020")
 					(unit 1)
@@ -5015,7 +4940,7 @@
 			(uuid "f4df02b9-3400-440b-af41-2335b10174d0")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
 					(reference "L4")
 					(unit 1)
@@ -5094,7 +5019,7 @@
 			(uuid "578ac635-8d43-410f-bdf6-902a079fc5cd")
 		)
 		(instances
-			(project "nrfCoffee"
+			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/3642d601-f6cc-4fb1-bc62-3749e117a93f"
 					(reference "C8")
 					(unit 1)
