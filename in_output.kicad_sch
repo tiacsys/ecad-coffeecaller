@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "CoffeeCaller nRF52840")
-		(date "2025-07-17")
+		(date "2025-07-19")
 		(comment 1 "SPDX-FileCopyrightText: 2025 Andreas Kurz <info@akurz.net>")
 		(comment 2 "SPDX-License-Identifier: CERN-OHL-S-2.0+")
 	)
@@ -68,113 +68,6 @@
 				)
 			)
 			(symbol "0603WAF5101T5E_0_1"
-				(rectangle
-					(start -2.54 1.02)
-					(end 2.54 -1.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "EASYEDA:0603WAJ0221T5E"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "0603WAJ0221T5E"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:R0603"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220R-221-5_C1226.html"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C1226"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0603WAJ0221T5E_0_1"
 				(rectangle
 					(start -2.54 1.02)
 					(end 2.54 -1.02)
@@ -2205,6 +2098,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:0603WAF8200T5E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0603WAF8200T5E"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:R0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_820R-8200-1_C23253.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C23253"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603WAF8200T5E_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2514,6 +2514,12 @@
 		(uuid "0986eb40-7b15-443e-bba6-81e732b14dac")
 	)
 	(junction
+		(at 208.28 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c73603a-45fd-47af-96de-3596cd412c6c")
+	)
+	(junction
 		(at 158.75 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2566,12 +2572,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71df84d1-b7a3-4618-a258-29c28485ca0e")
-	)
-	(junction
-		(at 137.16 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "83bcd25c-95c5-4b9d-9ed2-bb71bced5119")
 	)
 	(junction
 		(at 81.28 186.69)
@@ -2652,10 +2652,10 @@
 		(uuid "d8ff5587-8c8b-402d-86e6-5fa1ab514d20")
 	)
 	(junction
-		(at 208.28 60.96)
+		(at 137.16 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f254193f-3a7e-4e62-a061-b0d977545fe6")
+		(uuid "ed7a676e-147e-4735-ad76-58b8c5222d8f")
 	)
 	(junction
 		(at 31.75 154.94)
@@ -2755,13 +2755,23 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 147.32) (xy 146.05 147.32)
+			(xy 123.19 147.32) (xy 146.05 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0b5941ba-cca3-4ca1-b254-97307bb9e22c")
+	)
+	(wire
+		(pts
+			(xy 120.65 172.72) (xy 124.46 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b873274-fc09-4343-a785-38289c2e1406")
 	)
 	(wire
 		(pts
@@ -2842,16 +2852,6 @@
 			(type default)
 		)
 		(uuid "23f8e219-81b4-4e33-93e8-4ca9e9406b42")
-	)
-	(wire
-		(pts
-			(xy 208.28 60.96) (xy 214.63 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "257a0a4a-70a1-4c4e-8fbd-5d836e7f431c")
 	)
 	(wire
 		(pts
@@ -2975,16 +2975,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 172.72) (xy 124.46 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b99f378-7086-412c-8930-1d4ddd2fc366")
-	)
-	(wire
-		(pts
 			(xy 256.54 104.14) (xy 260.35 104.14)
 		)
 		(stroke
@@ -2992,16 +2982,6 @@
 			(type default)
 		)
 		(uuid "3c294947-4708-494b-b8ea-acef4a229ea1")
-	)
-	(wire
-		(pts
-			(xy 228.6 60.96) (xy 224.79 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c3e885c-57dd-4064-8183-3d6061d2d60e")
 	)
 	(wire
 		(pts
@@ -3325,16 +3305,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 172.72) (xy 137.16 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75928e4c-ca66-4f50-82c3-3d5485e141d0")
-	)
-	(wire
-		(pts
 			(xy 60.96 176.53) (xy 62.23 176.53)
 		)
 		(stroke
@@ -3452,6 +3422,16 @@
 			(type default)
 		)
 		(uuid "861a0ae0-b2c2-4e03-8a4b-f964cbdd9e27")
+	)
+	(wire
+		(pts
+			(xy 134.62 172.72) (xy 137.16 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87fc40e0-4efe-4096-9015-bf7de8559845")
 	)
 	(wire
 		(pts
@@ -3862,6 +3842,16 @@
 			(type default)
 		)
 		(uuid "e63e3efb-b573-4600-a234-29a2375e9107")
+	)
+	(wire
+		(pts
+			(xy 208.28 60.96) (xy 228.6 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e84f0bfd-8ca0-47eb-95d7-9a1c033a1994")
 	)
 	(wire
 		(pts
@@ -4545,7 +4535,7 @@
 	)
 	(global_label "VBUSnRF"
 		(shape input)
-		(at 132.08 147.32 180)
+		(at 123.19 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4555,7 +4545,7 @@
 		)
 		(uuid "b0236777-10e2-475e-8a64-aa8db04eb66c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.6886 147.32 0)
+			(at 111.7986 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5268,7 +5258,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA:0603WAF5101T5E")
+		(lib_id "easyeda2kicad:0603WAF8200T5E")
 		(at 189.23 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5286,7 +5276,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5k1"
+		(property "Value" "820R"
 			(at 191.77 57.1499 90)
 			(effects
 				(font
@@ -5304,7 +5294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_5-1KR-5101-1_C23186.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_820R-8200-1_C23253.html"
 			(at 199.39 55.88 0)
 			(effects
 				(font
@@ -5322,7 +5312,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C23186"
+		(property "LCSC Part" "C23253"
 			(at 201.93 55.88 0)
 			(effects
 				(font
@@ -6514,83 +6504,6 @@
 			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EASYEDA:0603WAJ0221T5E")
-		(at 129.54 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74b96cff-5911-415b-b438-ec6102fab4ad")
-		(property "Reference" "R4"
-			(at 129.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220R"
-			(at 129.54 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:R0603"
-			(at 129.54 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23689-0603WAF2200T5E/C22962"
-			(at 129.54 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C22962"
-			(at 129.54 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "477713b9-dac1-49be-82c9-bfef42560575")
-		)
-		(pin "2"
-			(uuid "4010bf41-edd7-4825-b1bc-b68e7b8edebd")
-		)
-		(instances
-			(project "coffeecaller"
-				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -8041,83 +7954,6 @@
 		)
 	)
 	(symbol
-		(lib_id "EASYEDA:0603WAJ0221T5E")
-		(at 219.71 60.96 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d22d1025-ced5-4790-9479-64335364bc62")
-		(property "Reference" "R3"
-			(at 219.71 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220R"
-			(at 219.71 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:R0603"
-			(at 219.71 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23689-0603WAF2200T5E/C22962"
-			(at 219.71 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 219.71 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C22962"
-			(at 219.71 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a23a099-e511-414d-a73f-d5fa3ad2e873")
-		)
-		(pin "2"
-			(uuid "c3adf845-329a-4b4f-828d-60135a4c6d8a")
-		)
-		(instances
-			(project ""
-				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "EASYEDA:2N7002")
 		(at 143.51 172.72 0)
 		(unit 1)
@@ -8572,6 +8408,83 @@
 			(project "coffeecaller"
 				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:0603WAF8200T5E")
+		(at 129.54 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee49d816-928e-45a4-a354-273cfc9edbf5")
+		(property "Reference" "R3"
+			(at 129.54 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "820R"
+			(at 129.54 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R0603"
+			(at 129.54 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_820R-8200-1_C23253.html"
+			(at 129.54 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C23253"
+			(at 129.54 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21159ed7-0fec-4f57-990d-99ab68b6f6bf")
+		)
+		(pin "2"
+			(uuid "7a951460-d092-4da5-b47d-a1d770bffe1e")
+		)
+		(instances
+			(project "coffeecaller"
+				(path "/c302b62c-cc69-497a-a5ee-b0a8ab6c4173/5f292b28-5bc1-4f61-b8ac-3188bc8c2569"
+					(reference "R3")
 					(unit 1)
 				)
 			)
